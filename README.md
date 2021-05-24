@@ -1,59 +1,76 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+# King K Band - MS1 Project
 
-Welcome jackcrosbie,
+King K band website was set up to help the band attract potential wedding and function gigs across the country of Ireland, will a particular focus on the Cork/Munster area. This is aimed to be user friendly and provide all the information needed so that potential customers can make a decision on whether they are appropriate for what the customer needs. The website will make it easier for the band to attract new customers as well as giving the customers more information as well as an easy path to contact them through.
 
-This is the Code Institute student template for Gitpod. We have preinstalled all of the tools you need to get started. You can safely delete this README.md file, or change it for your own project. Please do read it at least once, though! It contains some important information about Gitpod and the extensions we use.
+(Picture of header/hero image)
 
-## Gitpod Reminders
+## Showcase
 
-To run a frontend (HTML, CSS, Javascript only) application in Gitpod, in the terminal, type:
+A deployed link to the website can be found (here)
 
-`python3 -m http.server`
+## UX
 
-A blue button should appear to click: _Make Public_,
+### User Stories
 
-Another blue button should appear to click: _Open Browser_.
+The end user or target audience of this project/website is people who are getting married and people/places that host private functions that are looking for a good band that offer something a little different to your average wedding/function band. The main age bracket of these potential clients would range from about 25 - 55 years old. 
 
-To run a backend Python file, type `python3 app.py`, if your Python file is named `app.py` of course.
+The end user will want to get as much information on the band as possible to best guide them when making a decision/booking.#
+I would like to help the band increase their bookings by making the website user friendly, making it look good through a good choice of colour scheme and also making it easier for potential clients to contact the band through the "contact us" section and also through easily navigating through the social links.
 
-A blue button should appear to click: _Make Public_,
+- As a user I would like find out more information on the band.
+- As a user I would like to find this information easily without the need for many clicks.
+- As a user I would like to see videos and photos of the band in action.
+- As a user I would like to see sample song lists/setlists to see what variety of music the band has to offer.
+- As a user I would like to have a clear easy method of contacting the band directly.
+- As a user I would like to have access to their social media through links easily available on their webpage.
+- As a user I would like to see testimonials from people who have booked the band previously.
+- As a user I would like to be able to view the webpage on either desktop, mobile device or tablet.
 
-Another blue button should appear to click: _Open Browser_.
+## Strategy
 
-In Gitpod you have superuser security privileges by default. Therefore you do not need to use the `sudo` (superuser do) command in the bash terminal in any of the lessons.
+### User Needs
 
-To log into the Heroku toolbelt CLI:
+The need of the user is be able to access the information from the website on various platforms. The information should be clear, concise and laid out in a manner that is user friendly. Everything should be only a few clicks away and not be too overloaded with information or design.
 
-1. Log in to your Heroku account and go to *Account Settings* in the menu under your avatar.
-2. Scroll down to the *API Key* and click *Reveal*
-3. Copy the key
-4. In Gitpod, from the terminal, run `heroku_config`
-5. Paste in your API key when asked
+### Technical Capabilities
 
-You can now use the `heroku` CLI program - try running `heroku apps` to confirm it works. This API key is unique and private to you so do not share it. If you accidently make it public then you can create a new one with _Regenerate API Key_.
+It is capable to do this project with the gitpod framework in a timely manner and implement things that the user needs. Creating a three page website gives each page enough information but not so much as to overload the user. The one feature I did not have time to implement, nor the information available, was an interactive calender detailing the different gigs and venues the band are playing. This would enable potential customers to come along and check them out live, therfor increasing the chance of employment. I would hope to implement this in the near future when live music is back and the band have enough gigs booked to fill out their calender.
 
-## Updates Since The Instructional Video
+### Business Vision
 
-We continually tweak and adjust this template to help give you the best experience. Here is the version history:
+The intend purpose of this project is to advertise the client to a wider audience of potential customers. It will help potential clients contact the band as well as provide them with as much clear information as possible to help them make a decision regarding employing the band for their wedding day or private function. Their will be links to the bands social media as well to give clients more live, up-to-date information then the website will provide.
 
-**May 10 2021:** Added `heroku_config` script to allow Heroku API key to be stored as an environment variable.
+## Scope
 
-**April 7 2021:** Upgraded the template for VS Code instead of Theia.
+For my audience I want to provide recordings, images and songlists to potential customers of the band. I want to provide them with a contact section to further request more information, or to propose special requests for certain songs etc, to give the band a better chance of gaining employment.
 
-**October 21 2020:** Versions of the HTMLHint, Prettier, Bootstrap4 CDN and Auto Close extensions updated. The Python extension needs to stay the same version for now.
+## Structure
 
-**October 08 2020:** Additional large Gitpod files (`core.mongo*` and `core.python*`) are now hidden in the Explorer, and have been added to the `.gitignore` by default.
+The website will be laid out over three pages. Initally I planned to do 5 pages but upon sitting down gathering information, looking at my wireframes and my overall design I decided to reduce it to three pages. The homepage will have a header with links that lead further down the homepage like to the "About Us" section and also links to the two other pages which are "songlist" and "gallery". The reason for reducing the number of pages was I had two little contact spread across too many pages making the website overly complicated for no reason. With three pages I have enough information mixed with imagery and design that I feel it lends to an intuitive user experience with a clear layout.
 
-**September 22 2020:** Gitpod occasionally creates large `core.Microsoft` files. These are now hidden in the Explorer. A `.gitignore` file has been created to make sure these files will not be committed, along with other common files.
+After the header, containing the navigation bar, and the hero image the homepage brings you onto an "about us" section which has a little about the band overall and between three and five testimonals automatically rotating on a timed basis. The next section is covered in "About Us" is "meet the players"  section. Here we have five headshots/photos with a few lines of a bio for each band member. At the bottom of the homepage will be a "Contact Us" section which will have a form area to directly email the band as well as links to their various social media platforms. Repeated in the footer are icons to the social media links which, along with the header and nav bar, will carry across the three pages of the website.
 
-**April 16 2020:** The template now automatically installs MySQL instead of relying on the Gitpod MySQL image. The message about a Python linter not being installed has been dealt with, and the set-up files are now hidden in the Gitpod file explorer.
+The second page of the website is accessed via the "Songlist" link in the navigation bar. This will bring you to a simple page which contains a number of unordered list breaking the selection of songs the band does down into different catergories. Catergories such as "Wedding Songs", "70's", "80's" and so on. The footer at the bottom of the page will carry the social media icons that will link to their various social media platforms.
 
-**April 13 2020:** Added the _Prettier_ code beautifier extension instead of the code formatter built-in to Gitpod.
+The final or third page of the website will bring the users to a gallery. This gallery will contain some recordings of the band playing live as well as various images of them playing different styles of gigs in numerous venues. Like the last two pages the header and navigation bar will carry across as well as the footer with the links to social media platforms.
 
-**February 2020:** The initialisation files now _do not_ auto-delete. They will remain in your project. You can safely ignore them. They just make sure that your workspace is configured correctly each time you open it. It will also prevent the Gitpod configuration popup from appearing.
+## Skeleton
 
-**December 2019:** Added Eventyret's Bootstrap 4 extension. Type `!bscdn` in a HTML file to add the Bootstrap boilerplate. Check out the <a href="https://github.com/Eventyret/vscode-bcdn" target="_blank">README.md file at the official repo</a> for more options.
+Add Wireframes here.
 
----
+## Features
 
-Happy coding!
+## Technologies Used
+
+## Testing
+
+## Deployment
+
+## Bugs
+
+## Credits
+
+https://coolors.co/
+https://pixabay.com/
+https://www.pexels.com/
+https://unsplash.com/
