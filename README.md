@@ -26,6 +26,18 @@ I would like to help the band increase their bookings by making the website user
 - As a user I would like to see testimonials from people who have booked the band previously.
 - As a user I would like to be able to view the webpage on either desktop, mobile device or tablet.
 
+### Design
+
+#### Color Scheme
+
+The color scheme I chose was a mix of black, blues and purple. I felt the colors matched well while also being appropriate for a rock style band. 
+Attached is the color pallete I worked from:
+![King K](https://user-images.githubusercontent.com/82109134/119866502-c9c03480-bf14-11eb-91a8-e855925670cf.png)
+
+#### Typography
+
+I used a combination of Lato and Roboto for my project. The Lato was used predominately for headings while the Roboto was used for the content and paragraphs. I used sans-serif as a fallback in case the fonts were not imported properly or failed to work with a specific browser.
+
 ## Strategy
 
 ### User Needs
