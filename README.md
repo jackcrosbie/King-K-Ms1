@@ -14,7 +14,7 @@ A deployed link to the website can be found (here)
 
 The end user or target audience of this project/website is people who are getting married and people/places that host private functions that are looking for a good band that offer something a little different to your average wedding/function band. The main age bracket of these potential clients would range from about 25 - 55 years old. 
 
-The end user will want to get as much information on the band as possible to best guide them when making a decision/booking.#
+The end user will want to get as much information on the band as possible to best guide them when making a decision/booking.
 I would like to help the band increase their bookings by making the website user friendly, making it look good through a good choice of colour scheme and also making it easier for potential clients to contact the band through the "contact us" section and also through easily navigating through the social links.
 
 - As a user I would like find out more information on the band.
@@ -56,7 +56,9 @@ The final or third page of the website will bring the users to a gallery. This g
 
 ## Skeleton
 
-Add Wireframes here.
+Desktop Wireframe here - ![view](/images/Desktop Homepage.png)
+Tablet Wireframe here - ![view](/images/Tablet Wireframe.png)
+Mobile Wireframe here - ![view](/images/Mobile Homepage.png)
 
 ## Features
 
