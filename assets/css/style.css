@@ -6,25 +6,32 @@
     border: none;
 }
 
+body {
+    font-family: Roboto, Arial, sans-serif;
+}
+
 /* header and nav bar */
 
 header{
     height: 100px;
     position: relative;
-    background: #22007c;
+    background: #02010a;
 }
 
 
 #nav-bar {
     float: right;
-    margin-right: 30px;
     position: absolute;
     right: 0;
+    letter-spacing: 2px;
 }
 
 #nav-bar li {
     list-style-type: none;
     display: inline-block;
+    padding-left: 10px;
+    margin-top: 20px;
+    margin-right: 25px;
 }
 
 #nav-bar a {
@@ -40,5 +47,28 @@ header{
 /* logo */
 
 h1 {
+    font-family: Lato, sans-serif;
+    font-size: 50px;
+    letter-spacing: 2px;
+}
 
+h2 {
+    font-family: Roboto, sans-serif;
+    font-size: 17px;
+    position: absolute;
+    top: 70px;
+}    
+
+#logo, h2 {
+    margin-left: 20px;
+    color: azure;
+}
+
+#logo {
+    float: left;
+    font-size: 50px;
+}
+
+#nav-bar, #logo {
+    line-height: 75px;
 }
