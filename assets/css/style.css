@@ -11,10 +11,16 @@ body {
     color: azure;
 }
 
+h3 {
+    font-size: 25px;
+    letter-spacing: 2px;
+    text-decoration: underline;
+}
+
 /* header and nav bar */
 
 header{
-    height: 100px;
+    height: 110px;
     position: relative;
     background: #02010a;
 }
@@ -78,7 +84,7 @@ h2 {
 
 #hero-container {
     height: 500px;
-    background-color: #04052e;
+    background-color:#140152;
     color: azure;
 }
 
@@ -98,5 +104,24 @@ h2 {
 
 #container-image {
     float: left;
-    margin-left: 15%;
+    margin-left: 10%;
+}
+
+/* testimonials */
+
+#testimonials {
+    height: 500px;
+    width: 100%;
+    background-image: url('../images/puk-khantho-sWbGwr1fOUk-unsplash.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+/* meet the players section */
+
+#bios {
+    height: 400px;
+    width: 100%;
+    background: #02010a;
 }
