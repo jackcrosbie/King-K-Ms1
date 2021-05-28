@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@700&family=Roboto&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+/* header and nav bar */
+
+header{
+    height: 100px;
+    position: relative;
+    background: #22007c;
+}
+
+
+#nav-bar {
+    float: right;
+    margin-right: 30px;
+    position: absolute;
+    right: 0;
+}
+
+#nav-bar li {
+    list-style-type: none;
+    display: inline-block;
+}
+
+#nav-bar a {
+    text-decoration: none;
+    color: azure;
+}
+
+#nav-bar a:hover {
+    border-bottom: 1px solid yellow;
+    
+}
+
+/* logo */
+
+h1 {
+
+}
