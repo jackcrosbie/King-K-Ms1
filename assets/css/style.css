@@ -8,6 +8,7 @@
 
 body {
     font-family: Roboto, Arial, sans-serif;
+    color: azure;
 }
 
 /* header and nav bar */
@@ -40,7 +41,7 @@ header{
 }
 
 #nav-bar a:hover {
-    border-bottom: 1px solid yellow;
+    border-bottom: 1px solid #0d00A4;
     
 }
 
@@ -71,4 +72,31 @@ h2 {
 
 #nav-bar, #logo {
     line-height: 75px;
+}
+
+/* hero video section */
+
+#hero-container {
+    height: 500px;
+    background-color: #04052e;
+    color: azure;
+}
+
+/* about band section */
+
+#band-container {
+    height: 300px;
+    background: #02010a;
+}
+
+#band-container p {
+    float: right;
+    text-align: left;
+    margin-right: 25%;
+    margin-top: 2%;
+}
+
+#container-image {
+    float: left;
+    margin-left: 15%;
 }
