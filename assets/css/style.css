@@ -14,7 +14,7 @@ body {
 h3 {
     font-size: 25px;
     letter-spacing: 2px;
-    text-decoration: underline;
+    font-family: Lato, sans-serif;
 }
 
 /* header and nav bar */
@@ -100,11 +100,13 @@ h2 {
     text-align: left;
     margin-right: 25%;
     margin-top: 2%;
+    color: azure;
 }
 
 #container-image {
     float: left;
     margin-left: 10%;
+    margin-top: 18px;
 }
 
 /* testimonials */
@@ -124,4 +126,54 @@ h2 {
     height: 400px;
     width: 100%;
     background: #02010a;
+}
+
+#bios h3 {
+    text-align: center;
+}
+
+/* meet the band section */
+
+#meet-the-players {
+    height: 800px;
+    background-color: #140152; 
+}
+
+#meet-the-players h3 {
+    text-align: center;
+}
+
+
+.headshots {
+    height: 150px;
+    width: 150px;
+    float: left; 
+}
+
+#about-top-left {
+    padding-top: 30px;
+    width: 50%;
+    float: left;    
+}
+
+#about-top-right {
+    padding-top: 30px;
+    width: 50%;
+    float: left;    
+}
+
+.leftside-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+.rightside-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
 }
