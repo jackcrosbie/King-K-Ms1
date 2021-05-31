@@ -145,18 +145,19 @@ h2 {
 
 
 .headshots {
-    height: 150px;
-    width: 150px;
+    height: 125px;
+    width: 125px;
+    float: left; 
+    filter: grayscale(100%);
+}
+
+#about-left {
+    padding-top: 30px;
+    width: 50%;
     float: left; 
 }
 
-#about-top-left {
-    padding-top: 30px;
-    width: 50%;
-    float: left;    
-}
-
-#about-top-right {
+#about-right {
     padding-top: 30px;
     width: 50%;
     float: left;    
@@ -176,4 +177,66 @@ h2 {
     line-height: 20px;
     clear: both;
     margin-bottom: 50px;
+}
+
+.bottom-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 50px;
+}
+
+#about-bottom {
+    width: 50%;
+    text-align: center;
+    margin-left: 33%;
+}
+
+/* songlist section */
+
+#songlist-container {
+    height: 1200px;
+    width: 100%;
+    background-color: #0d00a4;
+}
+
+#songlist-container h3 {
+    text-align: center;
+}
+
+.songlist-top-groups {
+    width: 100%;
+    display: inline-flex;
+    margin-top: 2%;
+}
+
+.songlist-middle-groups {
+    width: 100%;
+    display: inline-flex;
+    margin-top: 5%;
+}
+
+.songlist-bottom-groups {
+    width: 100%;
+    display: inline-flex;
+    margin-top: 5%;
+}
+
+.songlist-left {
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.songlist-middle {
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 2%;
+}
+
+.songlist-right {
+    width: 20%;
+    margin-left: 10%;
+    margin-top: 2%;
 }
