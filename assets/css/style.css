@@ -240,3 +240,38 @@ h2 {
     margin-left: 10%;
     margin-top: 2%;
 }
+
+/* live video section */
+
+#video-container {
+    height: 400px;
+    background: #02010a; 
+}
+
+/* image carousel */
+
+#image-container {
+    height: 400px;
+    background: #140152;
+}
+
+/* packages available */
+
+#packages-container {
+    height: 500px;
+    background: #02010a;
+}
+
+/* contact us section */
+
+#form-container {
+    height: 800px;
+    background: #140152;
+}
+
+/* footer */
+
+footer {
+    height: 75px;
+    background: #0d00a4;
+}
