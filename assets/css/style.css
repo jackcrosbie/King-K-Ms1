@@ -19,7 +19,7 @@ h3 {
 
 /* header and nav bar */
 
-header{
+header {
     height: 110px;
     position: relative;
     background: #02010a;
@@ -272,6 +272,19 @@ h2 {
 /* footer */
 
 footer {
-    height: 75px;
-    background: #0d00a4;
+    background: azure;
+}
+
+.social-networks {
+    text-align: center;
+}
+
+.social-networks > li {
+    display: inline;
+}
+
+.social-networks i {
+    font-size: 150%;
+    margin: auto;
+    padding: 2%;
 }
