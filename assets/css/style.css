@@ -274,22 +274,49 @@ h2 {
 }
 
 input[type=text]  {
-    width: 47%;
+    width: 45%;
     padding: 10px;
     border: 5px solid #02010a;
     box-sizing: border-box;
-    margin-left: 10px;
+    margin-left: 5px;
     margin-top: 25px;
 }
 
 input[type=email] {
-    width: 47%;
+    width: 45%;
     padding: 10px;
     border: 5px solid #02010a;
     box-sizing: border-box;
-    margin-left: 10px;
+    margin-left: 5px;
     margin-top: 25px;
 }
+
+input[type=submit] {
+    font-size: 20px;
+    display: block;
+    border: 5px solid #02010a;
+    box-sizing: border-box;
+}
+
+label[for="message"] {
+    display: table-row;
+}
+
+label {
+    font-size: 20px;
+    padding-left: 15px;
+}
+
+
+select {
+    width: 15%;
+    padding: 10px;
+    border: 5px solid #02010a;
+    box-sizing: border-box;
+    margin-top: 50px;
+}
+
+
 
 /* footer */
 
@@ -306,7 +333,7 @@ footer {
 }
 
 .social-networks i {
-    font-size: 150%;
+    font-size: 200%;
     margin: auto;
     padding: 2%;
 }
