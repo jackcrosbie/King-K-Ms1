@@ -47,7 +47,7 @@ header {
 }
 
 #nav-bar a:hover {
-    border-bottom: 1px solid #0d00A4;
+    border-bottom: 1px solid azure;
     
 }
 
@@ -120,6 +120,64 @@ h2 {
     background-size: 100% 100%;
 }
 
+.slider-text {
+    position: relative;
+    top: 33%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    background: #02010a;
+    opacity: .8;
+    padding: 0px 10px;
+    height: 180px;
+    width: 33%;
+    overflow: hidden;
+}
+
+.line {
+    text-align: center;
+    font-size: 25px;
+    line-height: 30px;
+}
+
+.line h4 {
+    padding-top: 25px;
+    padding-bottom: 30px;
+}
+
+.line:first-child {
+    animation: anim 12s infinite;
+}
+
+@keyframes anim {
+    0%{
+        margin-top: 5px;
+    }
+    12.5%{
+        margin-top: 5px;
+    }
+    25%{
+        margin-top: -160px;
+    }
+    37.5%{
+        margin-top: -160px;
+    }
+    50%{
+        margin-top: -340px;
+    }
+    62.5%{
+        margin-top: -340px;
+    }
+    75%{
+        margin-top: -500px;
+    }
+    87.5%{
+        margin-top: -500px;
+    }
+    100%{
+        margin-top: 0px;
+    }
+}
+
 /* meet the players section */
 
 #bios {
@@ -136,7 +194,7 @@ h2 {
 
 #meet-the-players {
     height: 800px;
-    background-color: #140152; 
+    background-color: #02010a; 
 }
 
 #meet-the-players h3 {
@@ -251,9 +309,10 @@ h2 {
 /* image carousel */
 
 #image-container {
-    height: 400px;
-    background: #140152;
+    height: 1000px;
+    background: #0d00a4;
 }
+
 
 /* packages available */
 
@@ -268,7 +327,7 @@ h2 {
 }
 
 #packages-container .card {
-    margin: 2% 10% 5% 10%;
+    margin: 4% 10% 5% 10%;
 }
 
 .card {
@@ -282,7 +341,6 @@ h2 {
     position: relative;
     overflow: hidden;
     box-shadow: 2px 2px 46px -4px rgba(13, 0, 164, 0.6);
-    transition: all 0.2s ease-in-out;
 }
 
 .card h3 {
