@@ -316,8 +316,19 @@ h2 {
 /* live video section */
 
 #video-container {
-    height: 400px;
+    height: 600px;
     background: #02010a; 
+}
+
+#video-container h3 {
+    text-align: center;
+}
+
+video {
+    width: 70%;
+    height: 500px;
+    margin-left: 15%;
+    margin-top: 2%;
 }
 
 /* image carousel */
