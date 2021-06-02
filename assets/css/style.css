@@ -258,13 +258,17 @@ h2 {
 /* packages available */
 
 #packages-container {
-    height: 500px;
-    background: #0d00a4;
+    height: 400px;
+    background: azure;
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
     display: flex;
+}
+
+#packages-container .card {
+    margin: 2% 10% 5% 10%;
 }
 
 .card {
@@ -277,7 +281,7 @@ h2 {
     align-items: center;
     position: relative;
     overflow: hidden;
-    box-shadow: 2px 2px 46px -4px rgba(0, 0, 0, 0.6);
+    box-shadow: 2px 2px 46px -4px rgba(13, 0, 164, 0.6);
     transition: all 0.2s ease-in-out;
 }
 
@@ -288,6 +292,18 @@ h2 {
 .card h5 {
     margin-top: 8%;
     text-align: center;
+}
+
+#card-1 {
+    background-color: #140152;
+}
+
+#card-2 {
+    background-color: #0d00a4;
+}
+
+#card-3 {
+    background-color: #02010a;
 }
 
 .options {
