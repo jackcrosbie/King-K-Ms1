@@ -22,7 +22,7 @@ h3 {
 header {
     height: 110px;
     position: relative;
-    background: #02010a;
+    background: #140152;
 }
 
 
@@ -84,15 +84,22 @@ h2 {
 
 #hero-container {
     height: 500px;
-    background-color:#140152;
+    background-color:#02010a;
     color: azure;
+}
+
+#hero-video {
+    width: 100%;
+    margin: 0 auto;
+    filter: grayscale(100%);
+    position: relative;
 }
 
 /* about band section */
 
 #band-container {
     height: 300px;
-    background: #02010a;
+    background: #140152;
 }
 
 #band-container p {
@@ -117,7 +124,8 @@ h2 {
     background-image: url('../images/puk-khantho-sWbGwr1fOUk-unsplash.jpg');
     background-position: center;
     background-repeat: no-repeat;
-    background-size: 100% 100%;
+    background-size: 60% 100%;
+    background-color: #02010a;
 }
 
 .slider-text {
@@ -131,6 +139,10 @@ h2 {
     height: 180px;
     width: 33%;
     overflow: hidden;
+}
+
+.line p {
+    font-style: italic;
 }
 
 .line {
