@@ -99,21 +99,27 @@ h2 {
 
 #band-container {
     height: 300px;
-    background: #140152;
+    background: #02010a;
+}
+
+#band-container h3 {
+    text-align: center;
 }
 
 #band-container p {
     float: right;
     text-align: left;
     margin-right: 25%;
-    margin-top: 2%;
+    margin-top: 1%;
     color: azure;
+    font-size: 25px;
 }
 
 #container-image {
     float: left;
-    margin-left: 10%;
-    margin-top: 18px;
+    margin: 0 auto;
+    height: 250px;
+    width: 20%;
 }
 
 /* testimonials */
@@ -157,15 +163,15 @@ h2 {
 }
 
 .line:first-child {
-    animation: anim 12s infinite;
+    animation: anim 30s infinite;
 }
 
 @keyframes anim {
     0%{
-        margin-top: 5px;
+        margin-top: 0px;
     }
     12.5%{
-        margin-top: 5px;
+        margin-top: 0px;
     }
     25%{
         margin-top: -160px;
