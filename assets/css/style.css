@@ -107,9 +107,8 @@ h2 {
 }
 
 #band-container p {
-    float: right;
     text-align: left;
-    margin-right: 25%;
+    margin-left: 20%;
     margin-top: 1%;
     color: azure;
     font-size: 25px;
@@ -293,6 +292,14 @@ h2 {
 
 #songlist-container h3 {
     text-align: center;
+    margin-bottom: 2%;
+    margin-right: 27%;
+    
+}
+
+#songlist-container h4 {
+    font-size: 1.5rem;
+    text-decoration: underline;
 }
 
 .songlist-top-groups {
@@ -374,8 +381,8 @@ video {
 }
 
 .card {
-    width: 220px;
-    height: 370px;
+    width: 230px;
+    height: 350px;
     padding: 30px;
     border-radius: 1.5rem;
     display: flex;
@@ -388,6 +395,7 @@ video {
 
 .card h3 {
     text-align: center;
+    font-size: 1.6rem;
 }
 
 .card h5 {
@@ -408,7 +416,7 @@ video {
 }
 
 .options {
-    font-size: 1.3rem;
+    font-size: 1.1rem;
     position: relative;
     margin-bottom: 10px;
     margin-top: 25px;
@@ -419,7 +427,7 @@ video {
 }
 
 .list-items li {
-    font-size: 1.2rem;
+    font-size: 1rem;
     margin-top: 2%;
 }
 
