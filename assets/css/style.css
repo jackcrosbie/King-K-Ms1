@@ -22,7 +22,7 @@ h3 {
 header {
     height: 110px;
     position: relative;
-    background: #140152;
+    background: #02010a;
 }
 
 
@@ -99,11 +99,12 @@ h2 {
 
 #band-container {
     height: 300px;
-    background: #02010a;
+    background: #140152;
 }
 
 #band-container h3 {
     text-align: center;
+    padding-top: 2%;
 }
 
 #band-container i {
@@ -289,16 +290,14 @@ h2 {
 /* songlist section */
 
 #songlist-container {
-    height: 1200px;
+    height: 1100px;
     width: 100%;
-    background-color: #0d00a4;
+    background: url('../images/simon-weisser-phS37wg8cQg-unsplash.jpg') no-repeat center center;
 }
 
 #songlist-container h3 {
-    text-align: center;
-    margin-bottom: 2%;
-    margin-right: 27%;
-    
+    position: absolute;
+    margin-left: 45%;
 }
 
 #songlist-container h4 {
@@ -306,19 +305,24 @@ h2 {
     text-decoration: underline;
 }
 
-.songlist-top-groups {
-    width: 100%;
-    display: inline-flex;
-    margin-top: 2%;
+#songlist-container ul {
+    list-style: none;
 }
 
-.songlist-middle-groups {
+
+#songlist-top-groups {
     width: 100%;
     display: inline-flex;
     margin-top: 5%;
 }
 
-.songlist-bottom-groups {
+#songlist-middle-groups {
+    width: 100%;
+    display: inline-flex;
+    margin-top: 5%;
+}
+
+#songlist-bottom-groups {
     width: 100%;
     display: inline-flex;
     margin-top: 5%;
