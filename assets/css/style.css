@@ -84,7 +84,7 @@ h2 {
 
 #hero-container {
     height: 500px;
-    background-color:#02010a;
+    background-color:#04052e;
     color: azure;
 }
 
@@ -350,7 +350,7 @@ h2 {
 
 #video-container {
     height: 600px;
-    background: #02010a; 
+    background: #04052e; 
 }
 
 #video-container h3 {
@@ -368,7 +368,13 @@ video {
 
 #image-container {
     height: 1000px;
-    background: #0d00a4;
+    background: #04052e;
+}
+
+.pics {
+    height: 400px;
+    width: 20%;
+    margin-right: 2px;
 }
 
 
@@ -444,7 +450,7 @@ video {
 
 #form-container {
     height: 500px;
-    background: #140152;
+    background: #22007c;
 }
 
 #form-container h3 {
