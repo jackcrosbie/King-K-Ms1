@@ -83,16 +83,13 @@ h2 {
 /* hero video section */
 
 #hero-container {
-    height: 500px;
+    height: 100vh;
     background-color:#04052e;
-    color: azure;
 }
 
-#hero-video {
+#hero-container video {
+    height: auto;
     width: 100%;
-    margin: 0 auto;
-    filter: grayscale(100%);
-    position: relative;
 }
 
 /* about band section */
@@ -357,7 +354,7 @@ h2 {
     text-align: center;
 }
 
-video {
+#video-container video {
     width: 70%;
     height: 500px;
     margin-left: 15%;
