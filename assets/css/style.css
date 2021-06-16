@@ -90,6 +90,7 @@ h2 {
 #hero-container video {
     height: auto;
     width: 100%;
+    filter: grayscale(100%);
 }
 
 /* about band section */
