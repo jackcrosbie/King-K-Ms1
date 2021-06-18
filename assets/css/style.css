@@ -115,7 +115,7 @@ h2 {
 /* meet the band section */
 
 #meet-the-players {
-    height: 300vh;
+    height: 240vh;
     background-color: #02010a; 
 }
 
@@ -124,11 +124,12 @@ h2 {
 }
 
 .bios {
-    margin: 2%;
+    margin: 4% 2%;
 }
 
 .bios h4 {
     text-align: center;
+    font-size: 1.2rem;
 }
 
 #picture1 {
@@ -137,6 +138,7 @@ h2 {
     height: 20vh;
     width: 33%;
     left: 33vw;
+    margin-bottom: 2%;
 }
 
 #picture2 {
@@ -145,6 +147,7 @@ h2 {
     height: 20vh;
     width: 33%;
     left: 33vw;
+    margin-bottom: 2%;
 }
 
 #picture3 {
@@ -153,6 +156,7 @@ h2 {
     height: 20vh;
     width: 33%;
     left: 33vw;
+    margin-bottom: 2%;
 }
 
 #picture4 {
@@ -161,6 +165,7 @@ h2 {
     height: 20vh;
     width: 33%;
     left: 33vw;
+    margin-bottom: 2%;
 }
 
 #picture5 {
@@ -169,20 +174,21 @@ h2 {
     height: 20vh;
     width: 33%;
     left: 33vw;
+    margin-bottom: 2%;
 }
-
 
 /* songlist section */
 
 #songlist-container {
-    height: 1100px;
+    height: 220vh;
     width: 100%;
-    background: url('../images/claus-grunstaudl-dKeB0-M9iiA-unsplash\ \(1\).jpg') no-repeat center center;
+    background-color: #02010a;
 }
 
 #songlist-container h3 {
-    position: absolute;
-    margin-left: 45%;
+    text-align: center;
+    margin-bottom: 10%;
+
 }
 
 #songlist-container h4 {
@@ -194,41 +200,9 @@ h2 {
     list-style: none;
 }
 
-
-#songlist-top-groups {
-    width: 100%;
-    display: inline-flex;
-    margin-top: 5%;
-}
-
-#songlist-middle-groups {
-    width: 100%;
-    display: inline-flex;
-    margin-top: 5%;
-}
-
-#songlist-bottom-groups {
-    width: 100%;
-    display: inline-flex;
-    margin-top: 5%;
-}
-
-.songlist-left {
-    width: 20%;
-    margin-left: 10%;
-    margin-top: 2%;
-}
-
-.songlist-middle {
-    width: 20%;
-    margin-left: 10%;
-    margin-top: 2%;
-}
-
-.songlist-right {
-    width: 20%;
-    margin-left: 10%;
-    margin-top: 2%;
+.lists {
+    text-align: center;
+    margin: 2% 5%;
 }
 
 /* live video section */
