@@ -235,9 +235,7 @@ h2 {
 	margin-left:auto;
 	max-width: 100%;
 }
-/* Basic appearance stuff ends here */
 
-/* Parallax Horizontal Scroller - by Bree Dulmage, 2020 */
 #proparallax {
 	display: block;
 	position: relative;
@@ -256,88 +254,88 @@ h2 {
 }
 
 @keyframes parallax_one { /* controls img.one movement */
-	0% { /* .imageloaded */
+	0% { 
 		height: 37.5rem;
 		width: 50rem;
 		left: 0rem;
 		opacity: 1;
 	}
-	/* .imagehold runs from 0 to 27.77% */
-	27.77% { /* .imageloaded */
+	
+	27.77% { 
 		width: 50rem;
 		left: 0rem;
 	}
-	27.78% { /* .imagepreunload */
+	27.78% { 
 		width: 50rem;
 		left: 0rem;
 		right: 50rem;
 	}
-	33.33% { /* .imageunloaded */
+	33.33% { 
 		height: 37.5rem;
 		width: 0rem;
 		left: 0rem;
 		right: 0rem;
 		opacity: 1;
 	}
-	33.34% { /* imageoff */
+	33.34% { 
 		opacity: 0;	
 	}
-	94.43% { /* .imageon */
+	94.43% { 
 		left: 0rem;
 		opacity: 0;
 	}
-	94.44% { /* .imageinitial */
+	94.44% { 
 		height: 37.5rem;
 		width: 0rem;
 		left: 50rem;
 		opacity: 1;
 	}
-	100% { /* .imageloaded */
+	100% { 
 		width: 50rem;
 		left: 0rem;
 		opacity: 1;		
 	}
 }
 
-@keyframes parallax_two { /* controls img.two movement */
-	0% { /* .imageoff */
+@keyframes parallax_two { 
+	0% { 
 		opacity: 0;
 	}
-	27.77% { /* .imageon */
+	27.77% { 
 		left: 0rem;
 		opacity: 0;
 	}
-	27.78% { /* .imageinitial */
+	27.78% { 
 		width: 0rem;
 		height: 37.5rem;
 		left: 50rem;
 		opacity: 1;
 	}
-	33.33% { /* .imageloaded */
+	33.33% { 
 		width: 50rem;
 		left: 0rem;
 	}
-	/* .imagehold runs from 33.34% - 61.10% */
-	61.10%{ /* .imageloaded */
+	
+	61.10%{ 
 		width: 50rem;
 		left: 0rem;
 	}
-	61.11% { /* .imagepreunload */
+	61.11% { 
 		width: 50rem;
 		left: 0rem;
 		right: 50rem;
 	}
-	66.67% { /* .imageunloaded */
+	66.67% { 
 		width: 0rem;
 		right: 0rem;
 		left: 0rem;
 		height: 37.5rem;
 		opacity: 1;
 	}
-	66.68% { /* .imageoff */
+	66.68% { 
 		opacity: 0;
 	}
-	100% { /* .imageoff */
+	100% { 
 		opacity: 0;
 	}
 }
@@ -450,47 +448,11 @@ h2 {
 	}
 }
 
-@keyframes parallax_six { /* controls img.three movement */
-	0% { /* .imageoff */
-		opacity: 0;
-	}
-	61.10%{ /* .imageon */
-		opacity: 0;
-	}
-	61.11% { /* .imageinitial */
-		width: 0rem;
-		height: 37.5rem;
-		left: 50rem;
-		opacity: 1;		
-	}
-	66.67% { /* .imageloaded */
-		width: 50rem;
-		left: 0rem;
-	}
-	/* .imagehold runs from 66.67% - 94.43% */
-	94.43% { /* .imageloaded */
-		width: 50rem;
-		left: 0rem;
-	}
-	94.44% { /* .imagepreunload */
-		width: 50rem;
-		left: 0rem;
-		right: 50rem;
-	}
-	100% { /* imageunloaded */
-		width: 0rem;
-		right: 0rem;
-		left: 0rem;
-		height: 37.5rem;
-		opacity: 1;
-	}
-}
-
 #proparallax img.one{
 	animation-name: parallax_one; /* controls img.one movement */
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
-	animation-duration: 18s;
+	animation-duration: 30s;
 	animation-direction: forwards;
 	object-fit: cover;
 }
@@ -499,7 +461,7 @@ h2 {
 	animation-name: parallax_two; /* controls img.two movement */
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
-	animation-duration: 18s;
+	animation-duration: 30s;
 	animation-direction: forwards;
 	object-fit: cover;
 }
@@ -508,7 +470,7 @@ h2 {
 	animation-name: parallax_three; /* controls img.three movement */
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
-	animation-duration: 18s;
+	animation-duration: 30s;
 	animation-direction: forwards;
 	object-fit: cover;
 }
@@ -517,7 +479,7 @@ h2 {
 	animation-name: parallax_three; /* controls img.three movement */
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
-	animation-duration: 18s;
+	animation-duration: 30s;
 	animation-direction: forwards;
 	object-fit: cover;
 }
@@ -526,31 +488,22 @@ h2 {
 	animation-name: parallax_three; /* controls img.three movement */
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
-	animation-duration: 18s;
+	animation-duration: 30s;
 	animation-direction: forwards;
 	object-fit: cover;
 }
 
-#proparallax img.six {
-	animation-name: parallax_three; /* controls img.three movement */
-	animation-timing-function: linear;
-	animation-iteration-count: infinite;
-	animation-duration: 18s;
-	animation-direction: forwards;
-	object-fit: cover;
-}
 
 
 /* packages available */
 
 #packages-container {
-    height: 400px;
+    height: 135vh;
     background: azure;
     position: relative;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    display: flex;
 }
 
 #packages-container .card {
@@ -582,6 +535,7 @@ h2 {
 
 #card-1 {
     background-color: #140152;
+	margin-top: 5%;
 }
 
 #card-2 {
@@ -612,7 +566,7 @@ h2 {
 /* contact us section */
 
 #form-container {
-    height: 500px;
+    height: 100vh;
     background: #22007c;
 }
 
@@ -625,8 +579,6 @@ input[type=text]  {
     padding: 10px;
     border: 5px solid #02010a;
     box-sizing: border-box;
-    margin-left: 5px;
-    margin-top: 25px;
 }
 
 input[type=email] {
@@ -634,9 +586,6 @@ input[type=email] {
     padding: 10px;
     border: 5px solid #02010a;
     box-sizing: border-box;
-    margin-left: 1%;
-    margin-top: 25px;
-    margin-right: 18%;
 }
 
 input[type=submit] {
@@ -644,8 +593,6 @@ input[type=submit] {
     display: block;
     border: 5px solid #02010a;
     box-sizing: border-box;
-    margin-left: 48%;
-    margin-top: 10%;
 }
 
 label[for="message"] {
