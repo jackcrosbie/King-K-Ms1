@@ -50,20 +50,6 @@ header {
     border-bottom: 1px solid azure;
 }
 
-@media only screen and (min-width: 992px) {
-	header {
-		height: 15vh;
-	}
-	#nav-bar {
-		font-size: 1rem;
-	}   
-}
-
-@media only screen and (min-width: 768px) {
-	header {
-		height: 10vh;
-	}
-}
 
 /* logo */
 
@@ -716,4 +702,73 @@ footer {
     font-size: 200%;
     margin: auto;
     padding: 2%;
+}
+
+/* media queries */
+
+@media screen 
+  and (min-device-width: 1200px) 
+  and (max-device-width: 1600px) {
+	header {
+		height: 15vh;
+	}
+	#nav-bar {
+		font-size: 1rem;
+	}   
+}
+
+/* media queries tablet max-width 950px */
+
+@media only screen 
+  and (min-device-width: 768px) 
+  and (max-device-width: 1024px)  {
+	body {
+		font-size: 1.8em;
+	}	
+	h3 {
+		font-size: 1.7em;
+	}
+	header {
+		height: 8vh;
+	}
+	#nav-bar {
+		font-size: 1em;
+	}
+	#hero-container {
+		height: 70vh;
+	}
+	#meet-the-players {
+		height: 210vh;
+		text-align: center;
+	}
+	#meet-the-players h4 {
+		font-size: 1.4em;
+	}
+	#songlist-container {
+		height: 150vh;
+		background: url(../images/claus-grunstaudl-dKeB0-M9iiA-unsplash\ \(1\).jpg) center;
+	}
+	#songlist-container h4 {
+		font-size: 1.2em;
+	}
+	.lists {
+		display: inline-block;
+		margin-top: 3%;
+	}
+	#image-container {
+		height: 80vh;
+	}
+	#packages-container {
+		height: 60vh;
+	}
+	.card {
+		display: inline-block;
+	}
+	.card li {
+		font-size: .8em;
+	}
+	#card-3 {
+		left: 24%;
+		position: relative;
+	}
 }
