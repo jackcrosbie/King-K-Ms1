@@ -715,9 +715,15 @@ footer {
 	#nav-bar {
 		font-size: 1rem;
 	}   
+	#hero-container {
+		height: 132vh;
+	}
+	#hero-container p {
+		text-align: center;
+	}
 }
 
-/* media queries tablet max-width 950px */
+/* media queries tablet max-width 1024px */
 
 @media only screen 
   and (min-device-width: 768px) 
@@ -770,5 +776,12 @@ footer {
 	#card-3 {
 		left: 24%;
 		position: relative;
+	}
+	#form-container {
+		height: 50vh;
+		display: block;
+	}
+	#form-container label {
+		font-size: 1.2em;
 	}
 }
