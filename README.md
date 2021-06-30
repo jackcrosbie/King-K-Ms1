@@ -68,9 +68,9 @@ The final or third page of the website will bring the users to a gallery. This g
 
 ## Skeleton
 
-Desktop Wireframe here - ![Desktop Homepage](https://user-images.githubusercontent.com/82109134/119865282-6d104a00-bf13-11eb-8b25-550baab1762c.png)
-Tablet Wireframe here - ![Tablet Wireframe](https://user-images.githubusercontent.com/82109134/119865507-a47ef680-bf13-11eb-8917-ef07b5c2804d.png)
-Mobile Wireframe here - ![Mobile Homepage](https://user-images.githubusercontent.com/82109134/119865443-90d39000-bf13-11eb-9cf4-693a894e1eb9.png)
+Desktop Wireframe here - ![Desktop Homepage]
+Tablet Wireframe here - ![Tablet Wireframe]
+Mobile Wireframe here - ![Mobile Homepage]
 
 ## Features
 
