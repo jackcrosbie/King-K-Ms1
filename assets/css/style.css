@@ -721,6 +721,14 @@ footer {
 	#hero-container p {
 		text-align: center;
 	}
+	#testimonials {
+		height: 70vh;
+		font-size: 1.5em;
+		background: url(../images/puk-khantho-sWbGwr1fOUk-unsplash.jpg) no-repeat right center;
+		background-size: 20% 40%;
+		background-color: #02010a;
+		background-position: center;
+	}
 }
 
 /* media queries tablet max-width 1024px */
