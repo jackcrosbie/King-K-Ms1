@@ -729,6 +729,78 @@ footer {
 		background-color: #02010a;
 		background-position: center;
 	}
+	#picture1 {
+		width: 10%;
+		position: relative;
+		right: 20%;
+	}
+	#picture2 {
+		width: 12%;
+		position: relative;
+		right: 20%;
+	}
+	#picture3 {
+		width: 12%;
+		position: relative;
+		right: 20%;
+	}
+	#picture4 {
+		width: 10%;
+		position: relative;
+		right: 20%;
+	}
+	#picture5 {
+		width: 10%;
+		position: relative;
+		right: 20%;
+	}
+	.bios {
+		float: left;
+		display: inline-block;
+		text-align: center;
+		width: 70%;
+	}
+	.bios p {
+		width: 50vw;
+		text-align: center;
+	}
+	#songlist-container {
+		width: 100vw;
+		background: url(../images/claus-grunstaudl-dKeB0-M9iiA-unsplash\ \(1\).jpg) center center;
+	}
+	#songlist-container h3 {
+		position: relative;
+		right: 30%;
+	}
+	.lists {
+		display: inline-block;
+		margin: 7%;
+		position: relative;
+	}	
+	#proparallax {
+		width: 50%;
+		position: relative;
+		left: 25%;
+	}
+	#packages-container {
+		width: 100vw
+	}
+	.card {
+		display: inline-block;
+	}
+	#card-1 {
+		position: relative;
+	}
+	#card-2 {
+		position: relative;
+		right: 7%;
+	}
+	#card-3 {
+		position: relative;
+		left: 70%;
+		bottom: 90%;
+	}
+	
 }
 
 /* media queries tablet max-width 1024px */
@@ -758,6 +830,26 @@ footer {
 	#meet-the-players h4 {
 		font-size: 1.4em;
 	}
+	#picture1 {
+		width: 25%;
+		position: relative;
+		left: 38%;
+	}
+	#picture2 {
+		width: 25%;
+		position: relative;
+		left: 38%;
+	}
+	#picture4 {
+		width: 27%;
+		position: relative;
+		left: 36%;
+	}
+	#picture5 {
+		width: 27%;
+		position: relative;
+		left: 36%;
+	}
 	#songlist-container {
 		height: 150vh;
 		background: url(../images/claus-grunstaudl-dKeB0-M9iiA-unsplash\ \(1\).jpg) center;
@@ -771,6 +863,13 @@ footer {
 	}
 	#image-container {
 		height: 80vh;
+		
+	}
+	#proparallax {
+		width: 75%;
+		position: relative;
+		left: 12%;
+		padding-top: 2%;
 	}
 	#packages-container {
 		height: 60vh;
@@ -787,7 +886,6 @@ footer {
 	}
 	#form-container {
 		height: 50vh;
-		display: block;
 	}
 	#form-container label {
 		font-size: 1.2em;
