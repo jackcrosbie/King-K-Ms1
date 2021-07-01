@@ -751,6 +751,9 @@ footer {
 @media screen 
   and (min-device-width: 1200px) 
   and (max-device-width: 1600px) {
+	h3 {
+		font-size: 2.5em;
+	}
 	header {
 		height: 15vh;
 	}
@@ -764,7 +767,7 @@ footer {
 		text-align: center;
 	}
 	#testimonials {
-		height: 50vh;
+		height: 100vh;
 		font-size: 1.5em;
 		background: url(../images/puk-khantho-sWbGwr1fOUk-unsplash.jpg) no-repeat right center;
 		background-size: 20% 40%;
@@ -839,26 +842,48 @@ footer {
 		padding-left: 15%;
 	}
 	#songlist-container {
-		height: 800vh;
-		background: url(../images/claus-grunstaudl-dKeB0-M9iiA-unsplash\ \(1\).jpg) no-repeat center center;
+		height: 340vh;
+		background: url(../images/claus-grunstaudl-dKeB0-M9iiA-unsplash\ \(1\).jpg) center center;
+		opacity: .9;
 		background-color: #02010a;
 	}
 	#songlist-container h3 {
-		position: relative;
-		right: 30%;
+		text-align: center;
+	}
+	#songlist-container h4 {
+		font-size: 1.5em;
 	}
 	.lists {
 		display: inline-block;
-		margin: 7%;
+		grid-row: auto;
+		margin-bottom: 3%;
 		position: relative;
-	}	
+		bottom: 7%;
+		left: -5%;
+	}
+	.lists li {
+		margin-bottom: 3%;
+	}
+	#list-move {
+		position: relative;
+		left: 45%;
+		bottom: 42%;
+		width: 20.5%;
+	}
+	#video-container {
+		height: 100vh;
+	}
+	#image-container {
+		height: 170vh;
+	}
 	#proparallax {
 		width: 50%;
 		position: relative;
 		left: 25%;
 	}
 	#packages-container {
-		width: 100vw
+		width: 100vw;
+		height: 70vh;
 	}
 	.card {
 		display: inline-block;
@@ -868,12 +893,81 @@ footer {
 	}
 	#card-2 {
 		position: relative;
-		right: 7%;
+		right: 10%;
 	}
 	#card-3 {
 		position: relative;
-		left: 70%;
-		bottom: 90%;
+		left: 60%;
+		top: -116%;
+	}
+	#form-container {
+		height: 110vh;
+		display: relative;
+	}
+	#form-container label {
+		font-size: 1.7em;
+	}
+	label[for="event"] {
+		position: relative;
+		float: left;
+		top: 68%;
+		left: -13%;
+	}
+	label[for="name"] {
+		position: relative;
+		float: left;
+		bottom: 20%;
+		left: 15%;
+	}
+	input[type=text] {
+		position: relative;
+		float: left;
+		left: 17%;
+		top: -12%;
+		width: 50%;
+		font-size: 33px;
+	}
+	label[for="email"] {
+		position: relative;
+		float: left;
+		top: 20%;
+		left: -43%;
+	}
+	input[type=email] {
+		position: relative;
+		left: -11.5%;
+		top: -14%;
+		font-size: 33px;
+	}
+	label[for="event"] {
+		position: relative;
+		top: 17.5%;
+		left: 15%;
+	}
+	select {
+		position: relative;
+		float: left;
+		top: 17.5%;
+		left: 3%;
+		font-size: 33px;
+	}
+	label[for="message"] {
+		position: relative;
+		text-align: center;
+		top: 1.5%;
+		left: -32.5%;
+	}
+	textarea {
+		position: relative;
+		left: 12.5%;
+		top: -33%;
+		font-size: 33px;
+	}
+	input[type=submit] {
+		text-align: center;
+		top: -15%;
+		font-size: 33px;
+		left: -28.5%;
 	}
 	
 }
