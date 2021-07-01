@@ -115,7 +115,7 @@ h2 {
 
 /* about band section */
 
-.about_band_container {
+#about_band_container {
 	height: 55vh;
 	background-color:#04052e;
 	text-align: center;
@@ -123,7 +123,7 @@ h2 {
 	flex-direction: column;
 	padding-top: 1%;
 }
-.about_band_container p {
+#about_band_container p {
 	margin-top: 3%;
 }
 
@@ -766,13 +766,16 @@ footer {
 	#hero-container p {
 		text-align: center;
 	}
+	#about_band_container {
+		height: 50vh;
+	}
 	#testimonials {
-		height: 100vh;
+		height: 30vh;
 		font-size: 1.5em;
 		background: url(../images/puk-khantho-sWbGwr1fOUk-unsplash.jpg) no-repeat right center;
 		background-size: 20% 40%;
 		background-color: #02010a;
-		background-position: center;
+		background-position: center bottom;
 	}
 	#testimonials h3 {
 		font-size: 3rem;
