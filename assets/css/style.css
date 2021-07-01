@@ -9,7 +9,7 @@
 body {
     font-family: Roboto, Arial, sans-serif;
     color: azure;
-	font-size: 1.2rem;
+	font-size: 1.3rem;
 	letter-spacing: 1px;
 	display: flex;
 	flex-direction: column;
@@ -157,6 +157,7 @@ h2 {
 	flex-shrink: 0;
 	box-sizing: border-box;
 	padding: 10px;
+	border: dashed 1px azure;
   }
 
 @keyframes slideh {
@@ -178,7 +179,7 @@ h2 {
 /* meet the band section */
 
 #meet-the-players {
-    height: 400vh;
+    height: 500vh;
     background-color: #02010a; 
 	display: flex;
 	flex-direction: column;
@@ -256,7 +257,7 @@ h2 {
 /* songlist section */
 
 #songlist-container {
-    height: 400vh;
+    height: 430vh;
     width: 100%;
     background-color: #02010a;
 }
@@ -268,8 +269,9 @@ h2 {
 }
 
 #songlist-container h4 {
-    font-size: 1.5rem;
+    font-size: 1.7rem;
     text-decoration: underline;
+	padding-bottom: 3%;
 }
 
 #songlist-container ul {
@@ -330,7 +332,7 @@ h2 {
 	object-fit: cover;
 }
 
-@keyframes parallax_one { /* controls img.one movement */
+@keyframes parallax_one {
 	0% { 
 		height: 37.5rem;
 		width: 50rem;
@@ -529,7 +531,7 @@ h2 {
 	animation-name: parallax_one; 
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
-	animation-duration: 30s;
+	animation-duration: 40s;
 	object-fit: cover;
 }
 
@@ -537,7 +539,7 @@ h2 {
 	animation-name: parallax_two; 
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
-	animation-duration: 30s;
+	animation-duration: 40s;
 	object-fit: cover;
 }
 
@@ -545,7 +547,7 @@ h2 {
 	animation-name: parallax_three; 
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
-	animation-duration: 30s;
+	animation-duration: 40s;
 	object-fit: cover;
 }
 
@@ -553,7 +555,7 @@ h2 {
 	animation-name: parallax_four; 
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
-	animation-duration: 30s;
+	animation-duration: 40s;
 	object-fit: cover;
 }
 
@@ -561,7 +563,7 @@ h2 {
 	animation-name: parallax_five; 
 	animation-timing-function: linear;
 	animation-iteration-count: infinite;
-	animation-duration: 30s;
+	animation-duration: 40s;
 	object-fit: cover;
 }
 
@@ -638,6 +640,9 @@ h2 {
 #form-container {
     height: 85vh;
     background: #22007c;
+	display: flex;
+	flex-direction: column;
+	flex-wrap: nowrap;
 }
 
 #form-container h3 {
@@ -741,7 +746,7 @@ footer {
     padding: 2%;
 }
 
-/* media queries */
+/* media queries for laptops and desktops */
 
 @media screen 
   and (min-device-width: 1200px) 
@@ -753,57 +758,65 @@ footer {
 		font-size: 1rem;
 	}   
 	#hero-container {
-		height: 132vh;
+		height: 125vh;
 	}
 	#hero-container p {
 		text-align: center;
 	}
 	#testimonials {
-		height: 70vh;
+		height: 100vh;
 		font-size: 1.5em;
 		background: url(../images/puk-khantho-sWbGwr1fOUk-unsplash.jpg) no-repeat right center;
 		background-size: 20% 40%;
 		background-color: #02010a;
 		background-position: center;
 	}
-	#picture1 {
-		width: 10%;
+	#testimonials h3 {
+		font-size: 3rem;
+		padding-bottom: 10%;
+	}
+	.slides {
+		border: none;
+	}
+	#meet-the-players {
+		height: 550vh;
+		justify-content: center;
+	}
+	.pictures {
 		position: relative;
 		right: 20%;
 	}
+	#picture1 {
+		width: 20%;
+	}
 	#picture2 {
-		width: 12%;
-		position: relative;
-		right: 20%;
+		width: 20%;
 	}
 	#picture3 {
 		width: 12%;
-		position: relative;
-		right: 20%;
 	}
 	#picture4 {
 		width: 10%;
-		position: relative;
-		right: 20%;
 	}
 	#picture5 {
-		width: 10%;
-		position: relative;
-		right: 20%;
+		width: 20%;
 	}
 	.bios {
 		float: left;
 		display: inline-block;
 		text-align: center;
 		width: 70%;
+		margin-left: 15%;
 	}
 	.bios p {
 		width: 50vw;
 		text-align: center;
+		padding-left: 15%;
 	}
 	#songlist-container {
-		width: 100vw;
-		background: url(../images/claus-grunstaudl-dKeB0-M9iiA-unsplash\ \(1\).jpg) center center;
+		height: 800vh;
+		background: url(../images/claus-grunstaudl-dKeB0-M9iiA-unsplash\ \(1\).jpg) no-repeat center center;
+		background-color: #02010a;
 	}
 	#songlist-container h3 {
 		position: relative;
@@ -846,87 +859,151 @@ footer {
   and (min-device-width: 768px) 
   and (max-device-width: 1024px)  {
 	body {
-		font-size: 2.2em;
+		font-size: 2.5em;
 	}	
 	h3 {
 		font-size: 2.5em;
 		padding-bottom: 3%;
 	}
 	header {
-		height: 8vh;
+		height: 10vh;
 	}
 	#nav-bar {
-		font-size: 1em;
+		font-size: .7em;
 	}
 	#hero-container {
-		height: 70vh;
+		height: 40vh;
+	}
+	.about-band-container {
+		height: 100vh;
 	}
 	#meet-the-players {
-		height: 400vh;
+		height: 450vh;
 		text-align: center;
 	}
 	#meet-the-players h4 {
 		font-size: 1.4em;
 	}
 	#picture1 {
-		width: 25%;
+		width: 35%;
 		position: relative;
-		left: 38%;
+		left: 32%;
 	}
 	#picture2 {
-		width: 25%;
+		width: 35%;
 		position: relative;
-		left: 38%;
+		left: 32%;
 	}
 	#picture4 {
-		width: 27%;
+		width: 35%;
 		position: relative;
-		left: 36%;
+		left: 32%;
 	}
 	#picture5 {
-		width: 27%;
+		width: 35%;
 		position: relative;
-		left: 36%;
+		left: 32%;
 	}
 	#songlist-container {
-		height: 350vh;
+		height: 425vh;
 		background: url(../images/claus-grunstaudl-dKeB0-M9iiA-unsplash\ \(1\).jpg) center;
-		text-align: center;
+		display: flex;
+		flex-direction: column;
+		flex-wrap: nowrap;
 	}
 	#songlist-container h4 {
 		font-size: 1.2em;
 	}
 	.lists {
 		display: inline-block;
-		margin-top: 3%;
+		margin-top: 1%;
 	}
 	#image-container {
-		height: 100vh;
+		height: 120vh;
 	}
 	#proparallax {
 		width: 75%;
 		position: relative;
-		left: 12%;
-		padding-top: 5%;
+		left: 12.5%;
+		margin-top: 7%;
 	}
 	#packages-container {
-		height: 85vh;
+		height: 120vh;
+		display: grid;
 	}
 	.card {
-		display: inline-block;
 		height: 40vh;
+		width: 40%;
+		left: 20%;
 	}
 	.card li {
 		font-size: .8em;
 	}
-	#card-3 {
-		left: 24%;
-		position: relative;
-	}
 	#form-container {
-		height: 50vh;
+		height: 90vh;
+		display: relative;
 	}
 	#form-container label {
-		font-size: 1.2em;
+		font-size: 1.7em;
+	}
+	label[for="event"] {
+		position: relative;
+		float: left;
+		top: 68%;
+		left: -13%;
+	}
+	label[for="name"] {
+		position: relative;
+		float: left;
+		bottom: 10%;
+		left: 5%;
+	}
+	input[type=text] {
+		position: relative;
+		float: left;
+		left: 12%;
+		top: 0%;
+		width: 50%;
+		font-size: 33px;
+	}
+	label[for="email"] {
+		position: relative;
+		float: left;
+		top: 30%;
+		left: -65%;
+	}
+	input[type=email] {
+		position: relative;
+		left: 12%;
+		top: 5%;
+		font-size: 33px;
+	}
+	label[for="event"] {
+		position: relative;
+		top: 15%;
+		left: 5%;
+	}
+	select {
+		position: relative;
+		float: left;
+		top: 10%;
+		left: 13%;
+		font-size: 33px;
+	}
+	label[for="message"] {
+		position: relative;
+		text-align: center;
+		top: 37%;
+	}
+	textarea {
+		position: relative;
+		left: 20%;
+		top: 20%;
+		font-size: 33px;
+	}
+	input[type=submit] {
+		text-align: center;
+		top: 30%;
+		font-size: 33px;
 	}
 }
