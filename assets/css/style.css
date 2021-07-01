@@ -764,7 +764,7 @@ footer {
 		text-align: center;
 	}
 	#testimonials {
-		height: 100vh;
+		height: 50vh;
 		font-size: 1.5em;
 		background: url(../images/puk-khantho-sWbGwr1fOUk-unsplash.jpg) no-repeat right center;
 		background-size: 20% 40%;
@@ -782,24 +782,49 @@ footer {
 		height: 550vh;
 		justify-content: center;
 	}
+	.bios {
+		display: flex;
+		flex-direction: row;
+		height: 50vh;
+	}
+	.bios h4 {
+		font-size: 2em;
+	}
+	.bios p {
+		float: right;
+		width: 20%;
+		position: relative;
+		bottom: 80%;
+		font-size: 1.2em;
+	}
 	.pictures {
 		position: relative;
 		right: 20%;
 	}
 	#picture1 {
-		width: 20%;
+		width: 25%;
+		position: relative;
+		left: 2%;
 	}
 	#picture2 {
-		width: 20%;
+		width: 25%;
+		position: relative;
+		left: 2%;
 	}
 	#picture3 {
-		width: 12%;
+		width: 25%;
+		position: relative;
+		left: 2%;
 	}
 	#picture4 {
-		width: 10%;
+		width: 20%;
+		position: relative;
+		left: 2%;
 	}
 	#picture5 {
 		width: 20%;
+		position: relative;
+		left: 2%;
 	}
 	.bios {
 		float: left;
@@ -935,6 +960,9 @@ footer {
 		height: 40vh;
 		width: 40%;
 		left: 20%;
+	}
+	.card h3 {
+		font-size: 1.3em;
 	}
 	.card li {
 		font-size: .8em;
