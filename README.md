@@ -6,7 +6,7 @@ King K band website was set up to help the band attract potential wedding and fu
 
 ## Showcase
 
-A deployed link to the website can be found (here)
+A deployed link to the website can be found here (https://jackcrosbie.github.io/King-K-Ms1/)
 
 ## UX
 
@@ -32,7 +32,7 @@ I would like to help the band increase their bookings by making the website user
 
 The color scheme I chose was a mix of black, blues and purple. I felt the colors matched well while also being appropriate for a rock style band. 
 Attached is the color pallete I worked from:
-![King K](https://user-images.githubusercontent.com/82109134/119866502-c9c03480-bf14-11eb-91a8-e855925670cf.png)
+![King K](https://coolors.co/02010a-04052e-140152-22007c-0d00a4)
 
 #### Typography
 
@@ -68,9 +68,9 @@ The final or third page of the website will bring the users to a gallery. This g
 
 ## Skeleton
 
-Desktop Wireframe here - ![Desktop Homepage]
-Tablet Wireframe here - ![Tablet Wireframe]
-Mobile Wireframe here - ![Mobile Homepage]
+Desktop Wireframe here - [Desktop Homepage]
+Tablet Wireframe here - [Tablet Wireframe]
+Mobile Wireframe here - [Mobile Homepage]
 
 ## Features
 
