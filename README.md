@@ -2,8 +2,6 @@
 
 King K band website was set up to help the band attract potential wedding and function gigs across the country of Ireland, will a particular focus on the Cork/Munster area. This is aimed to be user friendly and provide all the information needed so that potential customers can make a decision on whether they are appropriate for what the customer needs. The website will make it easier for the band to attract new customers as well as giving the customers more information as well as an easy path to contact them through.
 
-(Picture of header/hero image)
-
 ## Showcase
 
 A deployed link to the website can be found here (https://jackcrosbie.github.io/King-K-Ms1/)
@@ -149,7 +147,30 @@ Github is now hosting my website without the need for me to copy my code over to
 
 ## Credits
 
-https://coolors.co/
-https://pixabay.com/
-https://www.pexels.com/
-https://unsplash.com/
+https://coolors.co/ - For my colour palette and colour ideas
+https://pixabay.com/ - For some background stock images
+https://www.pexels.com/ - For some background stock images
+https://unsplash.com/ - For some background stock images
+
+All other images are probably of King K band and were given to me with permission to use any/all of them.
+
+https://fontawesome.com/ - For icons for social links and an icon in about the band section.
+https://balsamiq.com/ - Used for creating wireframes
+https://github.com/Code-Institute-Solutions/readme-template - For information and README template.
+https://code-boxx.com/responsive-pure-css-text-slider/#sec-h - Used a modified version of the code here for my horizontal text slider in Testimonials section.
+https://www.w3schools.com/default.asp - Used to find solutions to numerous small issues I encountered with basic HTML and CSS code.
+
+## Content
+
+All content on this site is original documentation and profile pictures have been received directly from King K band with permission to use it.
+
+## Acknowlegements
+
+* Narender Singh for all his advice, chats and general help through the project and in our mentor sessions
+* Members of the Slack community who were more then happy to help and answer any questions I had.
+
+This project is for educational use only and was created for the Code Institute Module of User Centric front end development
+
+By Jack Crosbie
+
+
