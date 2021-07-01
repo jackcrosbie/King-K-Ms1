@@ -32,7 +32,7 @@ I would like to help the band increase their bookings by making the website user
 
 The color scheme I chose was a mix of black, blues and purple. I felt the colors matched well while also being appropriate for a rock style band. 
 Attached is the color pallete I worked from:
-![King K](https://coolors.co/02010a-04052e-140152-22007c-0d00a4)
+(https://coolors.co/02010a-04052e-140152-22007c-0d00a4)
 
 #### Typography
 
