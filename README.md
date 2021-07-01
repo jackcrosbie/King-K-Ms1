@@ -34,6 +34,8 @@ The color scheme I chose was a mix of black, blues and purple. I felt the colors
 Attached is the color pallete I worked from:
 (https://coolors.co/02010a-04052e-140152-22007c-0d00a4)
 
+I also used the azure colour to make text standout against the darker colours used for the backgrounds.
+
 #### Typography
 
 I used a combination of Lato and Roboto for my project. The Lato was used predominately for headings while the Roboto was used for the content and paragraphs. I used sans-serif as a fallback in case the fonts were not imported properly or failed to work with a specific browser.
@@ -74,11 +76,74 @@ Mobile Wireframe here - [Mobile Homepage]
 
 ## Features
 
+Homepage/Navbar: Opening page shows you the hero video played on a loop and without sound. This gives the user a feel for the band. We have a navigation bar to move around the single page website.
+
+About the band and testimonials section. This gives a little more information on the band itself and is accompanied by some testimonials from previous customers. These testimonials are auto scrolling horizontally across the screen.
+
+Meet the players section just gives you a little bio about each of the members.
+
+Songlist provides the users with a mix of different song catergories the band plays. These are broken into six different lists.
+
+Media section then has a live video of the band playing and then some photos auto scrolling of the band playing live.
+
+Packages section shows what kind of services the band offers to it's clients.
+
+Contact us has a form which can be used to message the band if needed.
+
+## Existing Feature:
+
+* Autoplaying hero video
+* Auto horizontal scrolling used on the testimonials and the images section. Though not working currently for more images.
+* Contact email form for customers to be able to contact the band (not currently operational but will be changing this in future)
+
+## Feature Still to Implement
+
+ * Adding more responsiveness to the website overall
+ * Adding more photo's to the autoscrolling images section
+ * Fixing the contact us form so it links to the bands email.
+ * Adding a burger menu for the mobile version of the phone.
+
 ## Technologies Used
+
+* HTML5
+* CSS3
+* Google Chrome dev tools for responsiveness and debugging
+* HTML Validator (https://validator.w3.org/)
+* CSS Validator (https://jigsaw.w3.org/css-validator/)
 
 ## Testing
 
+I focused my testing and responsiveness for the following screens.
+
+Iphone 5/6/7 (375 x 667), ipad pro (1024 x 1366) and larger desktop/laptop screens (1920 x 1080).
+
+## Implementation
+
+All of my testing was done using google chrome dev tools and using a html and CSS validator.
+This was my first time doing this as it was my first project.
+
+I started with the smallest mobile screen (Iphone 5/6/7), then did the tablet screen (Ipad pro) and worked up to the larger screen devices (laptop and desktop screens).
+When changes were made I regularly went back and checked the other devices to see if the changes affected anything done previously.
+
+After getting it to a point that it seemed relatively okay on the various sized devices, I then ran my code through the HTML and CSS validator to pick up on mistakes within the code itself. I tried my best to then eleminate or tidy up the problem areas. The validators found some needless tags (left over from removing items etc), some typing mistakes and just general bad bits of code. 
+
+I removed and changed all the parts I could and resulted in very little errors when running through the validators.
+
+The process I used can be broken down as follows:
+
+* Focus on website for iphone 5/6/7 - Make sure everything works and is in the right place. This is the basis of my HTML and CSS code.
+* Get website to work with Ipad Pro - This involved using media queries and at this stage the Google Dev tools were used to show me the mistakes in responsive when moving from the iphones to ipad.
+* The same steps were then followed to make the website responsive for larger screens. This time once changes were implemented I went back to both the Iphone and Ipad Pro to check to see if my changes affected what had been working previously.
+* Once I had things to as best as I could manage I put my code through the CSS and HTML validator to pick up on coding mistakes and left over needless code.
+
 ## Deployment
+
+My project was made entirely through Github using the Gitpod extenstion for Google Chrome.
+
+Using these together enabled me to write my HTML and CSS code directly into the Gitpod interface while also allowing me to use various terminals to get a live link to my page and also commit changes as needed.
+
+Github is now hosting my website without the need for me to copy my code over to another program or software. I was able to go to my settings in Github and through the pages section change the root directory to master and push the website live. The link again is: (https://jackcrosbie.github.io/King-K-Ms1/)
+
 
 ## Bugs
 
