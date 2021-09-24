@@ -6,6 +6,7 @@
     border: none;
 }
 
+
 body {
     font-family: Roboto, Arial, sans-serif;
     color: azure;
@@ -13,7 +14,6 @@ body {
 	letter-spacing: 1px;
 	display: flex;
 	flex-direction: column;
-	flex-wrap: nowrap;
 	justify-content: center;
 }
 
@@ -29,7 +29,7 @@ h3 {
 header {
     height: 25vh;
     position: relative;
-    background: #02010a;
+    background: #000000;
 }
 
 
@@ -75,7 +75,7 @@ h2 {
 
 #logo, h2 {
     margin-left: 20px;
-    color: azure;
+    color: #FF0035;
 }
 
 #logo {
@@ -90,8 +90,8 @@ h2 {
 /* hero video section */
 
 #hero-container {
-    background-color:#04052e;
-	height: 35vh;
+    background-color: yellow;
+	height: 30vh;
 }
 
 #hero-container video {
@@ -99,7 +99,7 @@ h2 {
 	flex-direction: column;
 	flex-wrap: nowrap;
 	justify-content: center;
-    height: auto;
+    height: 100%;
     width: 100%;
     filter: grayscale(100%);
 }
@@ -116,12 +116,13 @@ h2 {
 /* about band section */
 
 #about_band_container {
-	height: 55vh;
-	background-color:#04052e;
+	height: 60vh;
+	background-color:#8B939C;
 	text-align: center;
 	display: flex;
 	flex-direction: column;
 	padding-top: 1%;
+	color: #A1EF8B;
 }
 #about_band_container p {
 	margin-top: 3%;
@@ -136,7 +137,7 @@ h2 {
     background-position: center bottom;
     background-repeat: no-repeat;
     background-size: 50% 50%;
-    background-color: #02010a;
+    background-color: #000000;
 	position: relative;
 	overflow: hidden;
 	padding-bottom: 2%;
@@ -179,8 +180,8 @@ h2 {
 /* meet the band section */
 
 #meet-the-players {
-    height: 500vh;
-    background-color: #02010a; 
+	height: 600vh;
+    background-color: #772D8B; 
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
@@ -188,8 +189,8 @@ h2 {
 }
 
 #meet-the-players h3 {
+	position: relative;
     text-align: center;
-	padding-top: 5%; 
 }
 
 .bios {
@@ -199,6 +200,7 @@ h2 {
 	border-radius: 5px;
 	padding: 5% 1%;
 	height: 100vh;
+	background-color: #000000;
 }
 
 .bios h4 {
@@ -209,55 +211,41 @@ h2 {
 }
 
 .bios p {
-	padding-top: 10%;
+	height: 1em;
+	padding-top: 0%;
+	padding-bottom: 25%;
 }
-
-#bio1 {
-	background: #22007c;
-}
-
-#bio3 {
-	background:#04052e;
-}
-
-#bio4 {
-	background: #22007c
-}
-
 
 .pictures {
-	position: relative;
-    height: 25vh;
-    width: 35%;
-	left: 30vw;
-    margin-bottom: 2%;
-	padding-top: 5%;
+	height: 15em;
+	bottom: 10%;
+	margin-right: 5%;
 }
 
 #picture1 {
-    content: url(../images/Ben.jpg);
+    content: url(../images/jana-sabeth-2jo9YbjHF1Y-unsplash.jpg);
 }
 
 #picture2 {
-    content: url(../images/Clem.jpg);
+    content: url(../images/mikkel-bech-OwMIhcZu_X8-unsplash.jpg);
 }
 
 #picture3 {
-    content: url(../images/Mike.jpg);
+    content: url(../images/kari-shea-laHwVPkMTzY-unsplash.jpg);
 }
 
 #picture4 {
-    content: url(../images/image_6483441.JPG);
+    content: url(../images/ben-tofan-x7YZLcXeRlM-unsplash.jpg);
 }
 
 #picture5 {
-    content: url(../images/Mark.jpg);
+    content: url(../images/oscar-ivan-esquivel-arteaga-KlOKt5eehcg-unsplash.jpg);
 }
 
 /* songlist section */
 
 #songlist-container {
-    height: 430vh;
+    height: 450vh;
     width: 100%;
     background-color: #02010a;
 }
@@ -620,6 +608,7 @@ h2 {
 }
 
 .options {
+	display: inline-flex;
     font-size: 1.1rem;
     position: relative;
     margin-bottom: 10px;
@@ -748,387 +737,3 @@ footer {
 
 /* media queries for laptops and desktops */
 
-@media screen 
-  and (min-device-width: 1200px) 
-  and (max-device-width: 1600px) {
-	h3 {
-		font-size: 2.5em;
-	}
-	header {
-		height: 15vh;
-	}
-	#nav-bar {
-		font-size: 1rem;
-	}   
-	#hero-container {
-		height: 125vh;
-	}
-	#hero-container p {
-		text-align: center;
-	}
-	#about_band_container {
-		height: 50vh;
-	}
-	#testimonials {
-		height: 30vh;
-		font-size: 1.5em;
-		background: url(../images/puk-khantho-sWbGwr1fOUk-unsplash.jpg) no-repeat right center;
-		background-size: 20% 40%;
-		background-color: #02010a;
-		background-position: center bottom;
-	}
-	#testimonials h3 {
-		font-size: 3rem;
-		padding-bottom: 10%;
-	}
-	.slides {
-		border: none;
-	}
-	#meet-the-players {
-		height: 550vh;
-		justify-content: center;
-	}
-	.bios {
-		display: flex;
-		flex-direction: row;
-		height: 50vh;
-	}
-	.bios h4 {
-		font-size: 2em;
-	}
-	.bios p {
-		float: right;
-		width: 20%;
-		position: relative;
-		bottom: 80%;
-		font-size: 1.2em;
-	}
-	.pictures {
-		position: relative;
-		right: 20%;
-	}
-	#picture1 {
-		width: 25%;
-		position: relative;
-		left: 2%;
-	}
-	#picture2 {
-		width: 25%;
-		position: relative;
-		left: 2%;
-	}
-	#picture3 {
-		width: 25%;
-		position: relative;
-		left: 2%;
-	}
-	#picture4 {
-		width: 20%;
-		position: relative;
-		left: 2%;
-	}
-	#picture5 {
-		width: 20%;
-		position: relative;
-		left: 2%;
-	}
-	.bios {
-		float: left;
-		display: inline-block;
-		text-align: center;
-		width: 70%;
-		margin-left: 15%;
-	}
-	.bios p {
-		width: 50vw;
-		text-align: center;
-		padding-left: 15%;
-	}
-	#songlist-container {
-		height: 340vh;
-		background: url(../images/claus-grunstaudl-dKeB0-M9iiA-unsplash\ \(1\).jpg) center center;
-		opacity: .9;
-		background-color: #02010a;
-	}
-	#songlist-container h3 {
-		text-align: center;
-	}
-	#songlist-container h4 {
-		font-size: 1.5em;
-	}
-	.lists {
-		display: inline-block;
-		grid-row: auto;
-		margin-bottom: 3%;
-		position: relative;
-		bottom: 7%;
-		left: -5%;
-	}
-	.lists li {
-		margin-bottom: 3%;
-	}
-	#list-move {
-		position: relative;
-		left: 45%;
-		bottom: 42%;
-		width: 20.5%;
-	}
-	#video-container {
-		height: 100vh;
-	}
-	#image-container {
-		height: 170vh;
-	}
-	#proparallax {
-		width: 50%;
-		position: relative;
-		left: 25%;
-	}
-	#packages-container {
-		width: 100vw;
-		height: 70vh;
-	}
-	.card {
-		display: inline-block;
-	}
-	#card-1 {
-		position: relative;
-	}
-	#card-2 {
-		position: relative;
-		right: 10%;
-	}
-	#card-3 {
-		position: relative;
-		left: 60%;
-		top: -116%;
-	}
-	#form-container {
-		height: 110vh;
-		display: relative;
-	}
-	#form-container label {
-		font-size: 1.7em;
-	}
-	label[for="event"] {
-		position: relative;
-		float: left;
-		top: 68%;
-		left: -13%;
-	}
-	label[for="name"] {
-		position: relative;
-		float: left;
-		bottom: 20%;
-		left: 15%;
-	}
-	input[type=text] {
-		position: relative;
-		float: left;
-		left: 17%;
-		top: -12%;
-		width: 50%;
-		font-size: 33px;
-	}
-	label[for="email"] {
-		position: relative;
-		float: left;
-		top: 20%;
-		left: -43%;
-	}
-	input[type=email] {
-		position: relative;
-		left: -11.5%;
-		top: -14%;
-		font-size: 33px;
-	}
-	label[for="event"] {
-		position: relative;
-		top: 17.5%;
-		left: 15%;
-	}
-	select {
-		position: relative;
-		float: left;
-		top: 17.5%;
-		left: 3%;
-		font-size: 33px;
-	}
-	label[for="message"] {
-		position: relative;
-		text-align: center;
-		top: 1.5%;
-		left: -32.5%;
-	}
-	textarea {
-		position: relative;
-		left: 12.5%;
-		top: -33%;
-		font-size: 33px;
-	}
-	input[type=submit] {
-		text-align: center;
-		top: -15%;
-		font-size: 33px;
-		left: -28.5%;
-	}
-	
-}
-
-/* media queries tablet max-width 1024px */
-
-@media only screen 
-  and (min-device-width: 768px) 
-  and (max-device-width: 1024px)  {
-	body {
-		font-size: 2.5em;
-	}	
-	h3 {
-		font-size: 2.5em;
-		padding-bottom: 3%;
-	}
-	header {
-		height: 10vh;
-	}
-	#nav-bar {
-		font-size: .7em;
-	}
-	#hero-container {
-		height: 40vh;
-	}
-	.about-band-container {
-		height: 100vh;
-	}
-	#meet-the-players {
-		height: 450vh;
-		text-align: center;
-	}
-	#meet-the-players h4 {
-		font-size: 1.4em;
-	}
-	#picture1 {
-		width: 35%;
-		position: relative;
-		left: 32%;
-	}
-	#picture2 {
-		width: 35%;
-		position: relative;
-		left: 32%;
-	}
-	#picture4 {
-		width: 35%;
-		position: relative;
-		left: 32%;
-	}
-	#picture5 {
-		width: 35%;
-		position: relative;
-		left: 32%;
-	}
-	#songlist-container {
-		height: 425vh;
-		background: url(../images/claus-grunstaudl-dKeB0-M9iiA-unsplash\ \(1\).jpg) center;
-		display: flex;
-		flex-direction: column;
-		flex-wrap: nowrap;
-	}
-	#songlist-container h4 {
-		font-size: 1.2em;
-	}
-	.lists {
-		display: inline-block;
-		margin-top: 1%;
-	}
-	#image-container {
-		height: 120vh;
-	}
-	#proparallax {
-		width: 75%;
-		position: relative;
-		left: 12.5%;
-		margin-top: 7%;
-	}
-	#packages-container {
-		height: 120vh;
-		display: grid;
-	}
-	.card {
-		height: 40vh;
-		width: 40%;
-		left: 20%;
-	}
-	.card h3 {
-		font-size: 1.3em;
-	}
-	.card li {
-		font-size: .8em;
-	}
-	#form-container {
-		height: 90vh;
-		display: relative;
-	}
-	#form-container label {
-		font-size: 1.7em;
-	}
-	label[for="event"] {
-		position: relative;
-		float: left;
-		top: 68%;
-		left: -13%;
-	}
-	label[for="name"] {
-		position: relative;
-		float: left;
-		bottom: 10%;
-		left: 5%;
-	}
-	input[type=text] {
-		position: relative;
-		float: left;
-		left: 12%;
-		top: 0%;
-		width: 50%;
-		font-size: 33px;
-	}
-	label[for="email"] {
-		position: relative;
-		float: left;
-		top: 30%;
-		left: -65%;
-	}
-	input[type=email] {
-		position: relative;
-		left: 12%;
-		top: 5%;
-		font-size: 33px;
-	}
-	label[for="event"] {
-		position: relative;
-		top: 15%;
-		left: 5%;
-	}
-	select {
-		position: relative;
-		float: left;
-		top: 10%;
-		left: 13%;
-		font-size: 33px;
-	}
-	label[for="message"] {
-		position: relative;
-		text-align: center;
-		top: 37%;
-	}
-	textarea {
-		position: relative;
-		left: 20%;
-		top: 20%;
-		font-size: 33px;
-	}
-	input[type=submit] {
-		text-align: center;
-		top: 30%;
-		font-size: 33px;
-	}
-}
