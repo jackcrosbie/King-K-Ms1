@@ -69,8 +69,8 @@ h1 {
 h2 {
     font-family: Roboto, sans-serif;
     font-size: 17px;
-    position: absolute;
-    top: 70px;
+    position: relative;
+	display: inline-block;
 }    
 
 #logo, h2 {
@@ -179,7 +179,7 @@ h2 {
 /* meet the band section */
 
 #meet-the-players {
-	height: 450vh;
+	height: 530vh;
     background-color: #772D8B; 
 	display: flex;
 	flex-direction: column;
@@ -199,7 +199,7 @@ h2 {
 	border: solid 1px azure;
 	border-radius: 5px;
 	padding: 5% 1%;
-	height: 80vh;
+	height: 90vh;
 	background-color: #000000;
 }
 
@@ -217,7 +217,7 @@ h2 {
 }
 
 .pictures {
-	height: 10em;
+	height: auto;
 	padding: 7%;
 	display: block;
   	margin-left: auto;
@@ -739,5 +739,39 @@ footer {
     padding: 2%;
 }
 
-/* media queries for laptops and desktops */
+/* media queries for ipad */
 
+@media (min-width: 600px) {
+	body {
+		font-family: Roboto, Arial, sans-serif;
+		color: azure;
+		font-size: 2rem;
+		letter-spacing: 1px;
+		display: flex;
+		flex-direction: column;
+		justify-content: center;
+	}
+	header {
+		height: 25vh;
+		position: relative;
+		background-color: yellow;
+	}
+	 header #logo {
+		padding: 1%;
+		font-size: 3em;
+	}
+	#logo, h2 {
+		position: relative;
+		font-size: 1em;
+		float: left;
+		padding-left: 1%;
+	}
+	#nav-bar {
+		float: left;
+		left: 10%;
+	}
+	#nav-bar li {
+		font-size: 2.5em;
+	}
+
+}
