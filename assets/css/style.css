@@ -789,4 +789,10 @@ footer {
 	.bios .pictures {
 		height: 50%;
 	}
+	#songlist-container {
+		height: 430vh;
+	}
+	#songlist-container h4 {
+		font-size: 1.5em;
+	}
 }
