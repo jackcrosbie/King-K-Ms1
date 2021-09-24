@@ -50,7 +50,7 @@ header {
 
 #nav-bar a {
     text-decoration: none;
-    color: azure;
+    color: #FF0035;
 }
 
 #nav-bar a:hover {
@@ -90,8 +90,9 @@ h2 {
 /* hero video section */
 
 #hero-container {
-    background-color: yellow;
+    background-color: #000000;
 	height: 30vh;
+	width: auto;
 }
 
 #hero-container video {
@@ -102,10 +103,6 @@ h2 {
     height: 100%;
     width: 100%;
     filter: grayscale(100%);
-}
-
-#hero-container h3 {
-    text-align: center;
 }
 
 #hero-container p {
@@ -145,6 +142,7 @@ h2 {
 
 #testimonials h3 {
 	text-align: center;
+	color: #FF0035;
 }
 
 .slide-move {
@@ -159,6 +157,7 @@ h2 {
 	box-sizing: border-box;
 	padding: 10px;
 	border: dashed 1px azure;
+	color: #FF0035;
   }
 
 @keyframes slideh {
@@ -180,7 +179,7 @@ h2 {
 /* meet the band section */
 
 #meet-the-players {
-	height: 600vh;
+	height: 450vh;
     background-color: #772D8B; 
 	display: flex;
 	flex-direction: column;
@@ -191,6 +190,7 @@ h2 {
 #meet-the-players h3 {
 	position: relative;
     text-align: center;
+	font-size: 2em;
 }
 
 .bios {
@@ -199,7 +199,7 @@ h2 {
 	border: solid 1px azure;
 	border-radius: 5px;
 	padding: 5% 1%;
-	height: 100vh;
+	height: 80vh;
 	background-color: #000000;
 }
 
@@ -213,13 +213,16 @@ h2 {
 .bios p {
 	height: 1em;
 	padding-top: 0%;
-	padding-bottom: 25%;
+	padding-bottom: 10%;
 }
 
 .pictures {
-	height: 15em;
-	bottom: 10%;
-	margin-right: 5%;
+	height: 10em;
+	padding: 7%;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
+  	width: 50%;
 }
 
 #picture1 {
@@ -245,9 +248,10 @@ h2 {
 /* songlist section */
 
 #songlist-container {
-    height: 450vh;
+    height: 520vh;
     width: 100%;
-    background-color: #02010a;
+    background-color: #A1EF8B;
+	color: #FF0035;
 }
 
 #songlist-container h3 {
@@ -263,7 +267,7 @@ h2 {
 }
 
 #songlist-container ul {
-    list-style: none;
+    list-style-image: url('../images/icons8-treble-clef-30.png');
 }
 
 .lists {
@@ -276,7 +280,7 @@ h2 {
 
 #video-container {
     height: 90vh;
-    background: #04052e; 
+    background: #000000; 
 }
 
 #video-container h3 {
@@ -595,16 +599,16 @@ h2 {
 }
 
 #card-1 {
-    background-color: #140152;
+    background-color: #8B939C;
 	margin-top: 10%;
 }
 
 #card-2 {
-    background-color: #0d00a4;
+    background-color: #772D8B;
 }
 
 #card-3 {
-    background-color: #02010a;
+    background-color: #000000;
 }
 
 .options {
@@ -628,7 +632,7 @@ h2 {
 
 #form-container {
     height: 85vh;
-    background: #22007c;
+    background: #772D8B;
 	display: flex;
 	flex-direction: column;
 	flex-wrap: nowrap;
