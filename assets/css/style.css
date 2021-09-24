@@ -751,6 +751,9 @@ footer {
 		flex-direction: column;
 		justify-content: center;
 	}
+	h3 {
+		font-size: 2em;
+	}
 	header {
 		height: 25vh;
 		position: relative;
@@ -758,20 +761,32 @@ footer {
 	}
 	 header #logo {
 		padding: 1%;
-		font-size: 3em;
+		font-size: 3.5em;
 	}
 	#logo, h2 {
 		position: relative;
-		font-size: 1em;
+		font-size: 1.5em;
 		float: left;
 		padding-left: 1%;
 	}
 	#nav-bar {
 		float: left;
-		left: 10%;
+		left: 5%;
 	}
 	#nav-bar li {
-		font-size: 2.5em;
+		font-size: 2.9em;
 	}
-
+	#hero-container {
+		height: 100vh;
+		width: 100%;
+	}
+	#meet-the-players {
+		height: 550vh;
+	}
+	.bios h4 {
+		font-size: 1.5em;
+	}
+	.bios .pictures {
+		height: 50%;
+	}
 }
