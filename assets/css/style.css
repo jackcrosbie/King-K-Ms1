@@ -633,13 +633,15 @@ h2 {
 #form-container {
     height: 85vh;
     background: #772D8B;
-	display: flex;
-	flex-direction: column;
-	flex-wrap: nowrap;
+	display: grid;
 }
 
 #form-container h3 {
     text-align: center;
+}
+input {
+	padding: 10%;
+	margin-bottom: 5%;
 }
 
 input[type=text]  {
@@ -648,8 +650,8 @@ input[type=text]  {
     border: 5px solid #02010a;
     box-sizing: border-box;
 	position: relative;
-	left: 5%;
-	margin-top: 10%;
+	/**left: 5%;*/
+	margin-top: 10%
 }
 
 input[type=email] {
@@ -658,8 +660,8 @@ input[type=email] {
     border: 5px solid #02010a;
     box-sizing: border-box;
 	position: relative;
-	left: 6%;
-	margin-top: 5%;
+	/**left: 6%;
+	margin-top: 5%;**/
 }
 
 input[type=submit] {
@@ -668,38 +670,39 @@ input[type=submit] {
     box-sizing: border-box;
 	text-align: center;
 	position: relative;
-	top: 2em;
-	right: 4em;
+	/**top: 2em;
+	right: 4em;**/
 }
 
 label {
     font-size: 20px;
-    padding-left: 15px;
+    padding: 5%;
+	margin-top: auto;
 }
 
 label[for="message"] {
     position: relative;
-	text-align: center;
-	top: 3.5em;
-	right: 3em;
+	float: left;
+	/**top: 3.5em;
+	right: 3em;**/
 }
 
 
 label[for="email"] {
 	position: relative;
-	left: 3%;
+	/**left: 3%; */
 	margin-top: 2%;
 }
 
 label[for="name"] {
     position: relative;
-	left: 3%;
-	margin-top: 15%;
+	/**left: 3%;
+	margin-top: 15%;**/
 }
 
 label[for="event"] {
     position: relative;
-	left: 3%;
+	/**left: 3%;**/
 }
 
 select {
@@ -708,15 +711,15 @@ select {
     padding: 10px;
     border: 5px solid #02010a;
     box-sizing: border-box;
-	left: 6%;
-	margin-top: 5%;
+	/**left: 6%;
+	margin-top: 5%;**/
 }
 
 textarea {
 	position: relative;
     margin-top: 18%;
     width: 18em;
-	left: 20%;
+	/*left: 20%;*/
 }
 
 /* footer */
@@ -757,10 +760,11 @@ footer {
 	header {
 		height: 25vh;
 		position: relative;
-		background-color: yellow;
+		background-color: #000000;
 	}
 	 header #logo {
-		padding: 1%;
+		padding: 2%;
+		margin-top: 2%;;
 		font-size: 3.5em;
 	}
 	#logo, h2 {
@@ -794,5 +798,39 @@ footer {
 	}
 	#songlist-container h4 {
 		font-size: 1.5em;
+	}
+	#image-container {
+		height: 118vh;
+	}
+	#packages-container {
+		height: 140vh;
+	}
+	.card {
+		width: 12em;
+		left: 3em;
+		height: 50vh;
+	}
+	.card h3 {
+		font-size: 1.2em;
+	}
+	.card h4 {
+		font-size: 1em;
+	}
+	.card li {
+		font-size: .8em;
+	}
+	#form-container {
+		height: 85vh;
+	}
+	#form-container h3 {
+		height: 10vh;
+		display: block;
+    	text-align: center;
+	}
+	#form-container, form {
+		display: inline-block;
+   	 	margin-left: auto;
+    	margin-right: auto;
+    	text-align: left;
 	}
 }
