@@ -838,3 +838,50 @@ footer {
 		width: 20em;
 	}
 }
+
+/* media queries for laptops */
+
+@media (min-width: 1000px) {
+	body {
+		font-size: 1.2em;
+		}
+	}
+	header {
+		background-color: #000000;
+		height: 40vh;
+	}
+	#logo {
+		width: 30vw;
+		display: inline;
+	}
+	header h2 {
+		padding-top: 100px;
+		float: left;
+		color: white;
+		margin: auto;
+	}
+	#nav-bar li {
+		font-size: 1.5em;
+		position: relative;
+		float: right;
+		width: 15vw;
+	}
+	#hero-container {
+		height: 100vh;
+		width: 100%;
+	}
+	#about_band_container {
+		height: 40vh;
+	}
+	#about_band_container p {
+		padding-left: 10%;
+		padding-right: 10%;
+	}
+	#testimonials {
+		height: 200vh;
+	}
+	.slides {
+		padding: 5%;
+		text-align: center;
+	}
+}
