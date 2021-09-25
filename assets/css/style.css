@@ -631,7 +631,7 @@ h2 {
 /* contact us section */
 
 #form-container {
-    height: 85vh;
+    height: 95vh;
     background: #772D8B;
 	display: grid;
 }
@@ -640,7 +640,7 @@ h2 {
     text-align: center;
 }
 input {
-	padding: 10%;
+	padding: 5%;
 	margin-bottom: 5%;
 }
 
@@ -649,8 +649,6 @@ input[type=text]  {
     padding: 10px;
     border: 5px solid #02010a;
     box-sizing: border-box;
-	position: relative;
-	/**left: 5%;*/
 	margin-top: 10%
 }
 
@@ -659,9 +657,6 @@ input[type=email] {
     padding: 10px;
     border: 5px solid #02010a;
     box-sizing: border-box;
-	position: relative;
-	/**left: 6%;
-	margin-top: 5%;**/
 }
 
 input[type=submit] {
@@ -669,9 +664,8 @@ input[type=submit] {
     border: 5px solid #02010a;
     box-sizing: border-box;
 	text-align: center;
-	position: relative;
-	/**top: 2em;
-	right: 4em;**/
+	display: block;
+	margin: auto;
 }
 
 label {
@@ -681,45 +675,29 @@ label {
 }
 
 label[for="message"] {
-    position: relative;
-	float: left;
-	/**top: 3.5em;
-	right: 3em;**/
+	display: block;
+	margin: auto;
+	text-align: center;
 }
 
 
 label[for="email"] {
-	position: relative;
-	/**left: 3%; */
 	margin-top: 2%;
 }
 
-label[for="name"] {
-    position: relative;
-	/**left: 3%;
-	margin-top: 15%;**/
-}
-
-label[for="event"] {
-    position: relative;
-	/**left: 3%;**/
-}
 
 select {
-	position: relative;
     width: 10em;
     padding: 10px;
     border: 5px solid #02010a;
     box-sizing: border-box;
-	/**left: 6%;
-	margin-top: 5%;**/
 }
 
 textarea {
-	position: relative;
-    margin-top: 18%;
     width: 18em;
-	/*left: 20%;*/
+	display: block;
+	margin: auto;
+	margin-bottom: 5%;
 }
 
 /* footer */
