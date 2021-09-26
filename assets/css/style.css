@@ -27,7 +27,7 @@ h3 {
 /* header and nav bar */
 
 header {
-    height: 25vh;
+    height: fit-content;
     position: relative;
     background: #000000;
 }
@@ -91,7 +91,7 @@ h2 {
 
 #hero-container {
     background-color: #000000;
-	height: 30vh;
+	height: fit-content;
 	width: auto;
 }
 
@@ -113,7 +113,7 @@ h2 {
 /* about band section */
 
 #about_band_container {
-	height: 60vh;
+	height: fit-content;
 	background-color:#8B939C;
 	text-align: center;
 	display: flex;
@@ -178,7 +178,7 @@ h2 {
 /* meet the band section */
 
 #meet-the-players {
-	height: 530vh;
+	height: fit-content;
     background-color: #772D8B; 
 	display: flex;
 	flex-direction: column;
@@ -247,7 +247,7 @@ h2 {
 /* songlist section */
 
 #songlist-container {
-    height: 520vh;
+    height: fit-content;
     width: 100%;
     background-color: #A1EF8B;
 	color: #FF0035;
@@ -278,7 +278,7 @@ h2 {
 /* live video section */
 
 #video-container {
-    height: 90vh;
+    height:fit-content;
     background: #000000; 
 }
 
@@ -561,7 +561,7 @@ h2 {
 /* packages available */
 
 #packages-container {
-    height: 150vh;
+    height: 140vh;
     background: azure;
     position: relative;
     top: 55%;
@@ -630,7 +630,7 @@ h2 {
 /* contact us section */
 
 #form-container {
-    height: 95vh;
+    height: fit-content;
     background: #772D8B;
 	display: grid;
 }
@@ -687,7 +687,7 @@ label[for="email"] {
 
 select {
     width: 10em;
-    padding: 10px;
+    padding: 10%;
     border: 5px solid #02010a;
     box-sizing: border-box;
 }
