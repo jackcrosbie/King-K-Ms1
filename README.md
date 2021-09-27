@@ -94,9 +94,14 @@ Contact us has a form which can be used to message the band if needed.
 ## Existing Feature:
 
 * Nav bar in header which links to different sections of the page.
+![nav-bar](https://raw.githubusercontent.com/jackcrosbie/King-K-Ms1/master/Nav%20bar.png)
 * Autoplaying hero video.
+![hero-video](https://raw.githubusercontent.com/jackcrosbie/King-K-Ms1/master/hero%20video.png)
 * Auto horizontal scrolling used on the testimonials and the images section. Though not working currently for more images.
+![testimonial slider](https://raw.githubusercontent.com/jackcrosbie/King-K-Ms1/master/testimonial%20slider.png)
 * Contact email form for customers to be able to contact the band (not currently operational but will be changing this in future)
+* Footer containing social links to the bands social media pages.
+* ![social media links](https://raw.githubusercontent.com/jackcrosbie/King-K-Ms1/master/social%20links.png)
 
 ## Feature Still to Implement
 
