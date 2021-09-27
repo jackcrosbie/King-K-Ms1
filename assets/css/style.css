@@ -687,7 +687,7 @@ label[for="email"] {
 
 select {
     width: 10em;
-    padding: 10%;
+    padding: 2%;
     border: 5px solid #02010a;
     box-sizing: border-box;
 }
@@ -846,23 +846,26 @@ footer {
 	}
 	header {
 		background-color: #000000;
-		height: 40vh;
+		height: 15vh;
+		line-height: normal;
 	}
 	#logo {
+		position: absolute;
 		width: 30vw;
-		display: inline;
+		bottom: 15%;
 	}
 	header h2 {
-		padding-top: 100px;
-		float: left;
-		color: white;
-		margin: auto;
+		position: absolute;
+		top: 50%;
+		right: 76%;
+	}
+	#nav-bar {
+		float: right;
+		margin-right: 10%;
 	}
 	#nav-bar li {
 		font-size: 1.5em;
-		position: relative;
-		float: right;
-		width: 15vw;
+		display: inline;
 	}
 	#hero-container {
 		height: 100vh;
@@ -870,13 +873,16 @@ footer {
 	}
 	#about_band_container {
 		height: 40vh;
+		font-size: 1.5em;
 	}
 	#about_band_container p {
 		padding-left: 10%;
 		padding-right: 10%;
 	}
 	#testimonials {
+		font-size: 1.5em;
 		height: 100vh;
+		background-size: 40% 40%;
 	}
 	.slides {
 		padding: 5%;
@@ -912,12 +918,18 @@ footer {
 		height: 5vh;
 		padding: 10% 3% 15% 3%;
 	}
+	#proparallax {
+		justify-content: center;
+	}
 	#packages-container {
-		width: 100%;
-		height:fit-content;
+		height:120vh;
 		display:flex;
 		flex-wrap: wrap;
 		justify-content: space-evenly;
+	}
+	.card {
+		width: 20vw;
+		font-size: 1.2em;
 	}
 	#card-1 {
 		padding: 0%;
@@ -932,6 +944,36 @@ footer {
 	}
 	#form-container {
 		height: fit-content;
+		padding: 5%;
 	}
+	label[for="name"] {
 
+	}
+	input[type=text] {
+		width: 30vw;
+	}
+	label[for="email"] {
+		
+	}
+	input[type=email] {
+		width: 30vw;
+	}
+	select {
+		padding: 1%;
+	}
+	label[for="message"] {
+		display: inline-block;
+		padding-left: 20%;
+	}
+	textarea {
+		width: 40em;
+		position: relative;
+		left: 20.5%;
+		bottom: 15%;
+	}
+	input[type=submit] {
+		padding: 1%;
+		position: relative;
+		bottom: 10%;
+	}
 }
