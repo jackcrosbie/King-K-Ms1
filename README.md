@@ -159,6 +159,9 @@ During the building of the website I encountered several issues or bugs that req
 The rest either provided me with cropped photos or mobile photos they had had taken of them. When trying to make them work on the various screen sizes I encountered a lot of stretched/pixelated images. In the end I had to take the decision to use substitute photos representing the instruments they played instead of actual headshots in the Meet the players section. This was a better option then using the low quality pictures provided and will be something I look at redoing in future once better headshots are provided.
 
 * Form Layout: The layout of the form elements caused a few issues when trying to work on the responsiveness for the various devices. With numerous labels and input elements it was hard to get the layout exactly how I liked it. I'm happy with the result on the mobile devices but feel it is not perfect on laptop/larger screens. The balance between the font-size and space between each element is something I would like to improve in future.
+![form layout](https://raw.githubusercontent.com/jackcrosbie/King-K-Ms1/master/Form%20layout.png)
+
+* Parallax photo carousel: Initally I was very happy with the image carousel and it's auto-scrolling features. Even though it still works as intended upon trying to add more photos to it some of the photo's are being skipped in the rotation. I have tried to fix this and as it stands I can't work out why only some photo's are being shown and others not. It is something I will look to fix in future and try to understand what is causing only certain images to be shown.
 
 
 ## Credits
@@ -171,12 +174,18 @@ https://www.pexels.com/ - For some background stock images
 
 https://unsplash.com/ - For some background stock images
 
+https://stackoverflow.com/ - For solutions to issues occured while building the website
+
 All other images are probably of King K band and were given to me with permission to use any/all of them.
 
 https://fontawesome.com/ - For icons for social links and an icon in about the band section.
+
 https://balsamiq.com/ - Used for creating wireframes
+
 https://github.com/Code-Institute-Solutions/readme-template - For information and README template.
+
 https://code-boxx.com/responsive-pure-css-text-slider/#sec-h - Used a modified version of the code here for my horizontal text slider in Testimonials section.
+
 https://www.w3schools.com/default.asp - Used to find solutions to numerous small issues I encountered with basic HTML and CSS code.
 
 ## Content
