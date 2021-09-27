@@ -71,9 +71,11 @@ The final or third page of the website will bring the users to a gallery. This g
 
 ## Skeleton
 
-Desktop Wireframe here - [Desktop Homepage]
-Tablet Wireframe here - [Tablet Wireframe]
-Mobile Wireframe here - [Mobile Homepage]
+Desktop Wireframe here - ![Desktop Wireframe](https://raw.githubusercontent.com/jackcrosbie/King-K-Ms1/master/Desktop%20Homepage.png)
+
+Tablet Wireframe here - ![Tablet Wireframe](https://raw.githubusercontent.com/jackcrosbie/King-K-Ms1/master/Tablet%20Wireframe.png)
+
+Mobile Wireframe here - ![Mobile Homepage](https://raw.githubusercontent.com/jackcrosbie/King-K-Ms1/master/Mobile%20Homepage.png)
 
 ## Features
 
