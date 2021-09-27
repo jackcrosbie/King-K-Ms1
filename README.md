@@ -178,6 +178,8 @@ https://unsplash.com/ - For some background stock images
 
 https://stackoverflow.com/ - For solutions to issues occured while building the website
 
+https://icons8.com/ - For treble clef icon in songlist section
+
 All other images are probably of King K band and were given to me with permission to use any/all of them.
 
 https://fontawesome.com/ - For icons for social links and an icon in about the band section.
