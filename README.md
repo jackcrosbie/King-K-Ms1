@@ -33,7 +33,7 @@ I would like to help the band increase their bookings by making the website user
 
 The color scheme I chose was a mix of black, blues and purple. I felt the colors matched well while also being appropriate for a rock style band. 
 Attached is the color pallete I worked from:
-(https://coolors.co/02010a-04052e-140152-22007c-0d00a4)
+(https://coolors.co/8b939c-ff0035-772d8b-000000-a1ef8b)
 
 I also used the azure colour to make text standout against the darker colours used for the backgrounds.
 
@@ -93,13 +93,13 @@ Contact us has a form which can be used to message the band if needed.
 
 ## Existing Feature:
 
-* Autoplaying hero video
+* Nav bar in header which links to different sections of the page.
+* Autoplaying hero video.
 * Auto horizontal scrolling used on the testimonials and the images section. Though not working currently for more images.
 * Contact email form for customers to be able to contact the band (not currently operational but will be changing this in future)
 
 ## Feature Still to Implement
 
- * Adding more responsiveness to the website overall
  * Adding more photo's to the autoscrolling images section
  * Fixing the contact us form so it links to the bands email.
  * Adding a burger menu for the mobile version of the phone.
@@ -117,6 +117,7 @@ Contact us has a form which can be used to message the band if needed.
 I focused my testing and responsiveness for the following screens.
 
 Iphone 5/6/7 (375 x 667), ipad pro (1024 x 1366) and larger desktop/laptop screens (1920 x 1080).
+It also works well for most phone and tablet sizes.
 
 ## Implementation
 
