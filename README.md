@@ -154,11 +154,21 @@ Github is now hosting my website without the need for me to copy my code over to
 
 ## Bugs
 
+During the building of the website I encountered several issues or bugs that required me to rethink or rework what i doing.
+* Photos: Initially I got headshots provided to me by each member of the band. Two of the members had proper headshots they had got done for various projects they worked on.
+The rest either provided me with cropped photos or mobile photos they had had taken of them. When trying to make them work on the various screen sizes I encountered a lot of stretched/pixelated images. In the end I had to take the decision to use substitute photos representing the instruments they played instead of actual headshots in the Meet the players section. This was a better option then using the low quality pictures provided and will be something I look at redoing in future once better headshots are provided.
+
+* Form Layout: The layout of the form elements caused a few issues when trying to work on the responsiveness for the various devices. With numerous labels and input elements it was hard to get the layout exactly how I liked it. I'm happy with the result on the mobile devices but feel it is not perfect on laptop/larger screens. The balance between the font-size and space between each element is something I would like to improve in future.
+
+
 ## Credits
 
 https://coolors.co/ - For my colour palette and colour ideas
+
 https://pixabay.com/ - For some background stock images
+
 https://www.pexels.com/ - For some background stock images
+
 https://unsplash.com/ - For some background stock images
 
 All other images are probably of King K band and were given to me with permission to use any/all of them.
@@ -175,8 +185,9 @@ All content on this site is original documentation and profile pictures have bee
 
 ## Acknowlegements
 
-* Narender Singh for all his advice, chats and general help through the project and in our mentor sessions
+* Aaron Sinnott and Narender Singh for all their advice, chats and general help through the project and in our mentor sessions
 * Members of the Slack community who were more then happy to help and answer any questions I had.
+* My peer Daisy Gunn for her continous advice and support.
 
 This project is for educational use only and was created for the Code Institute Module of User Centric front end development
 
