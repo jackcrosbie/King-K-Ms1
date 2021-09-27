@@ -2,6 +2,9 @@
 
 King K band website was set up to help the band attract potential wedding and function gigs across the country of Ireland, will a particular focus on the Cork/Munster area. This is aimed to be user friendly and provide all the information needed so that potential customers can make a decision on whether they are appropriate for what the customer needs. The website will make it easier for the band to attract new customers as well as giving the customers more information as well as an easy path to contact them through.
 
+![homepage-screenshot](https://raw.githubusercontent.com/jackcrosbie/King-K-Ms1/master/King%20K%20website%20img%201.png)
+![mobile-homepage](https://raw.githubusercontent.com/jackcrosbie/King-K-Ms1/master/king%20k%20website%20img%202.png)
+
 ## Showcase
 
 A deployed link to the website can be found here (https://jackcrosbie.github.io/King-K-Ms1/)
